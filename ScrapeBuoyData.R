@@ -1,6 +1,6 @@
 library(XML)
 library(htmltab)
-library(ggplot2)
+#library(ggplot2)
 library(zoo)
 library(data.table)
 library(gridExtra)
@@ -61,7 +61,7 @@ GetTaitung <- function(){
   TaitungData <- (GetBuoyData(TaitungUrl,FugangBuoyURL))
   #  台東浮標 <-TaitungData
   dfjson <- toJSON(TaitungData)
-  write(dfjson,file="TaitungBuoyData.JSON")
+  write(dfjson,file="./buoyData/Taitung.JSON")
   # save(台東浮標,file="台東浮標.Rda")
 
 }
@@ -71,7 +71,9 @@ GetHualien <- function(){
   HualienBuoyURL = 'https://www.cwb.gov.tw/V7/marine/sea_condition/eng/tables/1256.html'
   HualienData <- (GetBuoyData(HualienUrl,HualienBuoyURL))
   # 花蓮浮標 <-HualienData
-  save(HualienData,file="HualienBuoyData.Rda")
+  #save(HualienData,file="HualienBuoyData.Rda")
+  dfjson <- toJSON(HualienData)
+  write(dfjson,file="./buoyData/Hualien.JSON")
   #save(花蓮浮標,file="花蓮浮標.Rda")
 }
 
@@ -80,7 +82,9 @@ GetYilan <- function(){
   YilanBuoy = 'https://www.cwb.gov.tw/V7/marine/sea_condition/eng/tables/1236.html'
   YilanData <- (GetBuoyData(YilanUrl,YilanBuoy))
   # 宜蘭浮標 <- YilanData
-  save(YilanData,file="YilanBuoyData.Rda")
+  #save(YilanData,file="YilanBuoyData.Rda")
+  dfjson <- toJSON(YilanData)
+  write(dfjson,file="./buoyData/Yilan.JSON")
   # save(宜蘭浮標,file="宜蘭浮標.Rda")
 }
 
@@ -89,7 +93,9 @@ GetSuAo <- function(){
   SuAoBuoy = 'https://www.cwb.gov.tw/V7/marine/sea_condition/eng/tables/1246.html'
   SuAoData <- (GetBuoyData(SuAoUrl,SuAoBuoy))
   # 蘇澳浮標 <- SuAoData
-  save(SuAoData,file="SuAoBuoyData.Rda")
+  #save(SuAoData,file="SuAoBuoyData.Rda")
+  dfjson <- toJSON(SuAoData)
+  write(dfjson,file="./buoyData/SuAo.JSON")
   # save(蘇澳浮標,file="蘇澳浮標.Rda")
 }
 
@@ -98,7 +104,9 @@ GetXiaoLiuQiu <- function(){
   XiaoLiuQiuBuoy = 'https://www.cwb.gov.tw/V7/marine/sea_condition/eng/tables/1386.html'
   XiaoLiuQiuData <- (GetBuoyData(XiaoLiuQiuUrl,XiaoLiuQiuBuoy))
   # 小琉球浮標 <- XiaoLiuQiuData
-  save(XiaoLiuQiuData,file="XiaoLiuQiuBuoyData.Rda")
+  #save(XiaoLiuQiuData,file="XiaoLiuQiuBuoyData.Rda")
+  dfjson <- toJSON(XiaoLiuQiuData)
+  write(dfjson,file="./buoyData/XiaoLiuQiu.JSON")
   # save(小琉球浮標,file="小琉球浮標.Rda")
 }
 
@@ -176,8 +184,8 @@ GetYilan()
 GetHualien()
 GetTaitung()
 
-PredHualien()
-PredSuAo()
-PredTaitung()
-PredXiaoLiuQiu()
-PredYilan()
+#PredHualien()
+#PredSuAo()
+#PredTaitung()
+#PredXiaoLiuQiu()
+#PredYilan()

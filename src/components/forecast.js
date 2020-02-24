@@ -1,34 +1,31 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend } from 'recharts';
-import { useState, useEffect } from 'react';
 import moment from 'moment';
 import { Paper } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
-import CurrentData from './currentData'
 
 
 
-
-function Graphs(props) {
-
-    const [data, setData] = useState([]);
-    const [show, setShow] = useState(false);
+function Forecast(props) {
+  const [data, setData] = useState([]);
+  const [show, setShow] = useState(false);
 
 
-    useEffect(() => {
-                      axios.get('http://localhost:3001/'+props.place)
-                            .then((response) => {
-                              console.log(response.data);
-                              setData(response.data);
-                              console.log(show);
-                              setShow(true);
-                            })
-                            .catch((error) => {
-                              console.log(error);
-                            });
-                      }, [show,props.place]);
+  useEffect(() => {
+                    axios.get('http://localhost:3001/'+props.place)
+                          .then((response) => {
+                            console.log(response.data);
+                            setData(response.data);
+                            setShow(true);
+                          })
+                          .catch((error) => {
+                            console.log(error);
+                          });
+                    }, [show, props.place]);
+
 
     const waveTooltip = ({active, payload, label}) => {
         if(active){
@@ -39,22 +36,16 @@ function Graphs(props) {
               <Grid container direction='column' justify='center' alignItems='center'>
               <Box p={3}>
               <p className="label">
-                {currentData.WaveDir}
+                {currentData.swellDirection} degrees
               </p>
               <p className="label">
-                {currentData.Tide}
+                {currentData.swellHeight} m
               </p>
               <p className="label">
-                {currentData.WaveHeight}
-              </p>
-              <p className="label">
-                {currentData.WavePeriod}
-              </p>
-              <p className="label">
-                {currentData.Tide}
+                {currentData.swellPeriod} s
               </p>
               <p className="intro">
-                {currentData.DateTime}
+                {currentData.time}
               </p>
               </Box>
               </Grid>
@@ -64,32 +55,32 @@ function Graphs(props) {
         }
     }
 
-    const showWave = () => {
-
+    const waveGraph = () => {
       return(
         <LineChart width={600} height={400} data={data}>
 
            <CartesianGrid stroke="#ccc" />
 
-           <XAxis  dataKey="DateTime"
-              tickFormatter = {(datetime) => moment(datetime).format('DD:HH')}
+           <XAxis  dataKey="time"
+           tickFormatter = {(datetime) => moment(datetime).format('DD:HH')}
            />
 
-           <YAxis dataKey="WaveHeight"
-              yAxisId='wh'
+           <YAxis dataKey="swellHeight"
+              yAxisId='h'
               unit="m"
            />
-           <YAxis dataKey="WavePeriod"
-              yAxisId='wp'
+           <YAxis dataKey="swellPeriod"
+              yAxisId='p'
               unit="s"
            />
+
            <Tooltip content={waveTooltip}/>
            <Legend/>
-           <Line yAxisId="wh" type="monotone" dataKey="WaveHeight" stroke="#8884d8"/>
-           <Line yAxisId="wp" type="monotone" dataKey="WavePeriod" stroke="#777777"/>
+           <Line  yAxisId="h" type="monotone" dataKey="swellHeight" stroke="#8884d8"/>
+           <Line  yAxisId="p" type="monotone" dataKey="swellPeriod" stroke="#8884d8"/>
         </LineChart>
-      )
-    }
+      )}
+
 
     const windTooltip = ({active, payload, label}) => {
         if(active){
@@ -100,13 +91,13 @@ function Graphs(props) {
             <Grid container direction='column' justify='center' alignItems='center'>
             <Box p={3}>
               <p className="label">
-                {currentData.WindDirection}
+                {currentData.windDirection} degrees
               </p>
               <p className="label">
-                {currentData.WindSpeed}
+                {currentData.windSpeed} m/s
               </p>
               <p className="intro">
-                {currentData.DateTime}
+                {currentData.time}
               </p>
               </Box>
               </Grid>
@@ -116,34 +107,33 @@ function Graphs(props) {
         }
     }
 
-    const showWind = () => {
+    const windGraph = () => {
 
       return(
         <LineChart width={600} height={400} data={data}>
 
            <CartesianGrid stroke="#ccc" />
-           <XAxis  dataKey="DateTime"
+           <XAxis  dataKey="time"
               tickFormatter = {(datetime) => moment(datetime).format('DD:HH')}
            />
-           <YAxis dataKey="WindSpeed"
+           <YAxis dataKey="windSpeed"
               yAxisId='ws'
               unit="m/s"
            />
 
            <Tooltip content={windTooltip}/>
            <Legend/>
-           <Line yAxisId="ws" type="monotone" dataKey="WindSpeed" stroke="#8884d8"/>
+           <Line yAxisId="ws" type="monotone" dataKey="windSpeed" stroke="#8884d8"/>
         </LineChart>
       )
     }
 
     return (
       <div>
-            <CurrentData data={data[0]}/>
-            {show && showWave()}
-            {show && showWind()}
+        {show && waveGraph()}
+        {show && windGraph()}
       </div>
     )
 }
 
-export default Graphs;
+export default Forecast;

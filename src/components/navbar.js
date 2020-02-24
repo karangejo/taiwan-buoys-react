@@ -1,6 +1,10 @@
 import React from 'react';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
+import HomeIcon from '@material-ui/icons/Home';
+import AccountTreeIcon from '@material-ui/icons/AccountTree';
+import BrightnessAutoIcon from '@material-ui/icons/BrightnessAuto';
+
 import { useHistory } from "react-router-dom";
 
 
@@ -27,12 +31,13 @@ function Navbar() {
   return (
     <div>
       <BottomNavigation
+      style={{width:"100%"}}
       onChange={handleClick}
       showLabels
     >
-      <BottomNavigationAction label="Home"/>
-      <BottomNavigationAction label="Graphs" />
-      <BottomNavigationAction label="About" />
+      <BottomNavigationAction label="Home" icon={<HomeIcon/>}/>
+      <BottomNavigationAction label="Graphs" icon={<AccountTreeIcon/>}/>
+      <BottomNavigationAction label="About" icon={<BrightnessAutoIcon/>}/>
     </BottomNavigation>
 
     </div>
