@@ -12,10 +12,45 @@ const api = require('./stormGlassApiKey');
 //const fileName = 'donghe.JSON';
 const dataFolder ='./forecastData/';
 
+// surf spots to be served
 const dongHe = {lat:22.974713,
                 lng:121.312026,
                 fileName: 'donghe.JSON'
                 }
+
+const fongBin = {lat:23.598731,
+                lng:121.530104,
+                fileName: 'fongbin.JSON'
+                }
+
+const chengGong = {lat:23.114908,
+                lng:121.398776,
+                fileName: 'chenggong.JSON'
+                }
+
+const jiaLeShui = {lat:21.987092,
+                lng:120.846658,
+                fileName: 'jialeshui.JSON'
+                }
+
+const nanWan = {lat:21.956813,
+                lng:120.762142,
+                fileName: 'nanwan.JSON'
+                }
+
+const huaLien = {lat:23.934235,
+                lng:121.614916,
+                fileName: 'hualien.JSON'
+                }
+
+
+
+
+
+
+
+
+
 const getAndSaveData = (placeObj) => {
   fetch(`https://api.stormglass.io/v1/weather/point?lat=${placeObj.lat}&lng=${placeObj.lng}`, {
               headers: {

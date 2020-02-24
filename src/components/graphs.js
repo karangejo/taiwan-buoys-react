@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import Grid from '@material-ui/core/Grid';
+import {ResponsiveContainer} from 'recharts';
 
 import Navbar from './navbar';
 import Graphs from './graphDisplay';
@@ -18,6 +19,7 @@ function GraphsPage() {
     return (
       <div>
       <Navbar/>
+      <ResponsiveContainer width="100%">
       <Grid container direction='column' justify='center' alignItems='center'>
           <h1>
             Graphs
@@ -38,6 +40,7 @@ function GraphsPage() {
           <Forecast place={surfspot}/>
           <WindyIframe/>
       </Grid>
+      </ResponsiveContainer>
       </div>
     )
 }
