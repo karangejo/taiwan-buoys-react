@@ -7,6 +7,8 @@ import Navbar from './navbar';
 import Graphs from './graphDisplay';
 import WindyIframe from './windyIframe';
 import Forecast from './forecast';
+import SelectBuoy from './selectBuoy';
+import SelectSurfSpot from './selectSurfSpot';
 
 
 
@@ -15,6 +17,14 @@ function GraphsPage() {
 
   const [place, setPlace] = useState("Yilan");
   const [surfspot, setSurfSpot] = useState("DongHe");
+
+  const handleBuoySelection = (place) => {
+    setPlace(place);
+  }
+
+  const handleSpotSelection = (spot) => {
+    setSurfSpot(spot);
+  }
 
     return (
       <div>
@@ -27,6 +37,7 @@ function GraphsPage() {
           <h2>
             Buoy Data
           </h2>
+          <SelectBuoy setPlace={handleBuoySelection}/>
           <h3>
             {place}
           </h3>
@@ -34,6 +45,7 @@ function GraphsPage() {
           <h2>
             Forecast Data
           </h2>
+          <SelectSurfSpot setSpot={handleSpotSelection}/>
           <h3>
             {surfspot}
           </h3>

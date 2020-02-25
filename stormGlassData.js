@@ -9,47 +9,54 @@ const api = require('./stormGlassApiKey');
 //const params = 'airTemperature, swellDirection, swellHeight, swellPeriod, waveDirection, waveHeight, wavePeriod, windWaveDirection, windWaveHeight, windWavePeriod, windDirection, windSpeed, gust';
 //const source = 'noaa';
 
-//const fileName = 'donghe.JSON';
+//folder that will contain the data
 const dataFolder ='./forecastData/';
+
+// array to store the list of spot objects
+var spotsList = [];
 
 // surf spots to be served
 const dongHe = {lat:22.974713,
                 lng:121.312026,
                 fileName: 'donghe.JSON'
                 }
+spotsList.push(dongHe);
 
 const fongBin = {lat:23.598731,
                 lng:121.530104,
                 fileName: 'fongbin.JSON'
                 }
+spotsList.push(fongBin);
 
 const chengGong = {lat:23.114908,
                 lng:121.398776,
                 fileName: 'chenggong.JSON'
                 }
+spotsList.push(chengGong);
 
 const jiaLeShui = {lat:21.987092,
                 lng:120.846658,
                 fileName: 'jialeshui.JSON'
                 }
+spotsList.push(jiaLeShui);
 
 const nanWan = {lat:21.956813,
                 lng:120.762142,
                 fileName: 'nanwan.JSON'
                 }
+spotsList.push(nanWan);
 
 const huaLien = {lat:23.934235,
                 lng:121.614916,
                 fileName: 'hualien.JSON'
                 }
+spotsList.push(huaLien);
 
 
 
 
-
-
-
-
+// main function to scrape all the data from a location. The place object has the form
+// {lat: XXXX, lng: XXXX, fileName: XXXX}
 
 const getAndSaveData = (placeObj) => {
   fetch(`https://api.stormglass.io/v1/weather/point?lat=${placeObj.lat}&lng=${placeObj.lng}`, {
@@ -63,9 +70,12 @@ const getAndSaveData = (placeObj) => {
 
 
 
-
-// getting the noaa values in the second array element
+// get storm glass value 0
+// get the noaa values 1
 const src = 1
+
+//this function re assembles the data into a format suitable for recharts
+// and then saves the data
 const processAndSaveData = (df,file) => {
   var myData = [];
 
@@ -88,4 +98,7 @@ const processAndSaveData = (df,file) => {
   fs.writeFileSync(dataFolder+file, fileData);
 }
 
-getAndSaveData(dongHe);
+
+for(i in spotsList){
+  getAndSaveData(spotsList[i]);
+}

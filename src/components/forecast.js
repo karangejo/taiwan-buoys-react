@@ -15,16 +15,16 @@ function Forecast(props) {
 
 
   useEffect(() => {
-                    axios.get('http://localhost:3001/'+props.place)
-                          .then((response) => {
-                            console.log(response.data);
-                            setData(response.data);
-                            setShow(true);
-                          })
-                          .catch((error) => {
-                            console.log(error);
-                          });
-                    }, [show, props.place]);
+      axios.get('http://localhost:3001/'+props.place+'Forecast')
+            .then((response) => {
+              console.log(response.data);
+              setData(response.data);
+              setShow(true);
+            })
+            .catch((error) => {
+              console.log(error);
+            });
+        }, [show, props.place]);
 
 
     const waveTooltip = ({active, payload, label}) => {
@@ -128,10 +128,12 @@ function Forecast(props) {
       )
     }
 
+
+
     return (
       <div>
-        {show && waveGraph()}
-        {show && windGraph()}
+        {show  && waveGraph()}
+        {show  && windGraph()}
       </div>
     )
 }

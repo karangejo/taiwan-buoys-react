@@ -40,12 +40,41 @@ router.get('/SuAo', (req, res) => {
 
 
 // forecast endpoints
-router.get('/DongHe', (req, res) => {
+router.get('/DongHeForecast', (req, res) => {
   let rawdata = fs.readFileSync('./forecastData/donghe.JSON');
   let df = JSON.parse(rawdata);
   res.send(df);
 })
 
+router.get('/FongBinForecast', (req, res) => {
+  let rawdata = fs.readFileSync('./forecastData/fongbin.JSON');
+  let df = JSON.parse(rawdata);
+  res.send(df);
+})
+
+router.get('/ChenGongForecast', (req, res) => {
+  let rawdata = fs.readFileSync('./forecastData/chenggong.JSON');
+  let df = JSON.parse(rawdata);
+  res.send(df);
+})
+
+router.get('/HualienForecast', (req, res) => {
+  let rawdata = fs.readFileSync('./forecastData/hualien.JSON');
+  let df = JSON.parse(rawdata);
+  res.send(df);
+})
+
+router.get('/JiaLeShuiForecast', (req, res) => {
+  let rawdata = fs.readFileSync('./forecastData/jialeshui.JSON');
+  let df = JSON.parse(rawdata);
+  res.send(df);
+})
+
+router.get('/NanWanForecast', (req, res) => {
+  let rawdata = fs.readFileSync('./forecastData/nanwan.JSON');
+  let df = JSON.parse(rawdata);
+  res.send(df);
+})
 
 
 module.exports = router
