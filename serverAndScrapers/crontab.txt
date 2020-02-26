@@ -1,0 +1,2 @@
+*/30 * * * * sleep 300;cd /to/serverAndScrapers && /usr/bin/Rscript /to/serverAndScrapers/ScrapeBuoyData.R >> /to/logdir/savebuoyslog.txt 2>&1
+0 1 * * 0 cd /to/serverAndScrapers && /full/path/to/node /to/serverAndScrapers/stormGlassData.js
