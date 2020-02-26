@@ -4,6 +4,8 @@ import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 import HomeIcon from '@material-ui/icons/Home';
 import AccountTreeIcon from '@material-ui/icons/AccountTree';
 import BrightnessAutoIcon from '@material-ui/icons/BrightnessAuto';
+import Grid from '@material-ui/core/Grid';
+import { Paper } from '@material-ui/core';
 
 import { useHistory } from "react-router-dom";
 
@@ -30,6 +32,8 @@ function Navbar() {
 
   return (
     <div>
+    <Grid container direction='column' justify='center' alignItems='center'>
+    <Paper style={{width: "100%"}}>
       <BottomNavigation
       style={{width:"100%"}}
       onChange={handleClick}
@@ -39,7 +43,8 @@ function Navbar() {
       <BottomNavigationAction label="Graphs" icon={<AccountTreeIcon/>}/>
       <BottomNavigationAction label="About" icon={<BrightnessAutoIcon/>}/>
     </BottomNavigation>
-
+    </Paper>
+    </Grid>
     </div>
   );
 };

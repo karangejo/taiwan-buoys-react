@@ -77,7 +77,7 @@ function ForecastWaveGraph(props) {
 
          <Tooltip content={waveTooltip}/>
          <Legend/>
-         <Line yAxisId="wp" type="monotone" dataKey="swellPeriod" stroke="#777777"/>
+         <Line yAxisId="wp" type="monotone" dot={false} dataKey="swellPeriod" stroke="#777777"/>
          <Area yAxisId="wh" type="monotone" dataKey="swellHeight" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)"/>
       </ComposedChart>
     )

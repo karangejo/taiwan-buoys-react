@@ -3,9 +3,6 @@ import { Paper } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
 
 
-
-
-
 function CurrentData(props) {
 
     const dataView = () => {

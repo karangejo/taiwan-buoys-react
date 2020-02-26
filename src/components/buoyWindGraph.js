@@ -1,5 +1,5 @@
 import React from 'react';
-import { Area, Line, ComposedChart, CartesianGrid, XAxis, YAxis, Tooltip, Legend} from 'recharts';
+import { Area, ComposedChart, CartesianGrid, XAxis, YAxis, Tooltip, Legend} from 'recharts';
 import { useState, useEffect } from 'react';
 import moment from 'moment';
 import { Paper } from '@material-ui/core';

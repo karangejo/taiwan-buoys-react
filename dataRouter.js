@@ -52,7 +52,7 @@ router.get('/FongBinForecast', (req, res) => {
   res.send(df);
 })
 
-router.get('/ChenGongForecast', (req, res) => {
+router.get('/ChengGongForecast', (req, res) => {
   let rawdata = fs.readFileSync('./forecastData/chenggong.JSON');
   let df = JSON.parse(rawdata);
   res.send(df);
