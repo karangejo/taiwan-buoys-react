@@ -6,6 +6,8 @@ import moment from 'moment';
 import { Paper } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
+import ForecastWaveGraph from './forecastWaveGraph';
+import ForecastWindGraph from './forecastWindGraph';
 
 
 
@@ -128,12 +130,20 @@ function Forecast(props) {
       )
     }
 
-
+    const showAreaCharts = () => {
+      return(
+        <div>
+        <ForecastWaveGraph place={props.place} data={data}/>
+        <ForecastWindGraph place={props.place} data={data}/>
+        </div>
+      );
+    }
 
     return (
       <div>
         {show  && waveGraph()}
         {show  && windGraph()}
+        {show && showAreaCharts()}
       </div>
     )
 }

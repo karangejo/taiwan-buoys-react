@@ -25,9 +25,9 @@ function CurrentData(props) {
                     <p>
                       Date Time: {props.data.DateTime} <br/>
                       Wave Height: {props.data.WaveHeight} m <br/>
-                      Wave period: {props.data.WavePeriod} s <br/>
+                      Wave Period: {props.data.WavePeriod} s <br/>
                       Wave Direction: {props.data.WaveDir} <br/>
-                      Wind Speed: {props.data.WindSpeed} m/s <br/>
+                      Wind Speed: {props.data.WindSpeed} m/s {Math.round(props.data.WindSpeed*1.94)} kts<br/>
                       Wind Direction: {props.data.WindDirection} <br/>
                       Tide: {props.data.Tide} m <br/>
                     </p>

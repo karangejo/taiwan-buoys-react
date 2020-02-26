@@ -13,6 +13,7 @@ import SelectSurfSpot from './selectSurfSpot';
 
 
 
+
 function GraphsPage() {
 
   const [place, setPlace] = useState("Yilan");

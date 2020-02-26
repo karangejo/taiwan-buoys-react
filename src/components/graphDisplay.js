@@ -7,6 +7,10 @@ import { Paper } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import CurrentData from './currentData'
+import BuoyWaveGraph from './buoyWaveGraph';
+import BuoyWindGraph from './buoyWindGraph';
+
+
 
 
 
@@ -21,7 +25,7 @@ function Graphs(props) {
                       axios.get('http://localhost:3001/'+props.place)
                             .then((response) => {
                               console.log(response.data);
-                              setData(response.data);
+                              setData(response.data.reverse());
                               console.log(show);
                               setShow(true);
                             })
@@ -137,11 +141,21 @@ function Graphs(props) {
       )
     }
 
+    const showAreaCharts = () => {
+      return(
+        <div>
+        <BuoyWaveGraph place={props.place} data={data}/>
+        <BuoyWindGraph place={props.place} data={data}/>
+        </div>
+      );
+    }
+
     return (
       <div>
             <CurrentData data={data[0]}/>
             {show && showWave()}
             {show && showWind()}
+            {show && showAreaCharts()}
       </div>
     )
 }
