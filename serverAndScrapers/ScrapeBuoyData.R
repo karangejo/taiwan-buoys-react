@@ -1,6 +1,5 @@
 library(XML)
 library(htmltab)
-#library(ggplot2)
 library(zoo)
 library(data.table)
 library(gridExtra)
@@ -54,6 +53,11 @@ GetBuoyData<- function(buoyUrl,tideUrl){
   return(dataset)
 }
 
+getCurrentTime <- function(){
+  timesys <- as.character(Sys.time())
+  timesys <- gsub(":.*","",timesys)
+  return(timesys)
+}
 
 GetTaitung <- function(){
   TaitungUrl = 'https://www.cwb.gov.tw/V7/marine/sea_condition/eng/tables/WRA007.html'
@@ -61,8 +65,10 @@ GetTaitung <- function(){
   TaitungData <- (GetBuoyData(TaitungUrl,FugangBuoyURL))
   #  台東浮標 <-TaitungData
   dfjson <- toJSON(TaitungData)
+  #return(dfjson)
   write(dfjson,file="./buoyData/Taitung.JSON")
   # save(台東浮標,file="台東浮標.Rda")
+  #TTJ <- toJSON(paste("{ \"date\" : \"dateToday\", \"data\" : ", TT, "}"))
 
 }
 
