@@ -9,6 +9,11 @@ import WindyIframe from './windyIframe';
 import Forecast from './forecast';
 import SelectBuoy from './selectBuoy';
 import SelectSurfSpot from './selectSurfSpot';
+import ClickableMap from './clickableMap';
+
+
+const { styles } = require('./../style');
+
 
 
 
@@ -17,7 +22,7 @@ import SelectSurfSpot from './selectSurfSpot';
 function GraphsPage() {
 
   const [place, setPlace] = useState("Taitung");
-  const [surfspot, setSurfSpot] = useState("DongHe");
+  const [surfspot, setSurfSpot] = useState("Taitung");
 
   const handleBuoySelection = (place) => {
     setPlace(place);
@@ -27,43 +32,52 @@ function GraphsPage() {
     setSurfSpot(spot);
   }
 
+  const handleMapLocation = (place) => {
+    setPlace(place);
+    setSurfSpot(place)
+  }
+
+
     return (
-      <div>
-      <Navbar/>
-      <ResponsiveContainer width="100%">
-      <Grid container direction='column' justify='center' alignItems='center'>
-          <h1>
-            Graphs
-          </h1>
-          <Paper style={{padding: "20px 20px 20px 20px"}}>
-          <h2 align="center">
-            Buoy Data
-          </h2>
-          <SelectBuoy setPlace={handleBuoySelection}/>
-          <h3>
-            {place}
-          </h3>
-          <Buoys place={place}/>
-          </Paper>
-          <p></p>
-          <Paper style={{padding: "20px 20px 20px 20px"}}>
-          <h2 align="center">
-            Forecast Data
-          </h2>
-          <SelectSurfSpot setSpot={handleSpotSelection}/>
-          <h3>
-            {surfspot}
-          </h3>
-          <Forecast place={surfspot}/>
-          </Paper>
-          <p></p>
-          <Paper style={{padding: "20px 20px 20px 20px"}}>
-          <WindyIframe/>
-          </Paper>
-      </Grid>
-      </ResponsiveContainer>
-      <p></p> 
-      <Navbar/>
+      <div style={styles.background}>
+        <Navbar/>
+        <ResponsiveContainer width="100%">
+          <Grid container direction='column' justify='center' alignItems='center'>
+              <h1 style={styles.fontOrange}>
+                Graphs
+              </h1>
+              <Paper style={styles.paper}>
+                <Paper style={styles.mapPaper}>
+                  <ClickableMap handleLocation={handleMapLocation} style={{height:"200px"}}/>
+                </Paper>
+                <h2 align="center" style={styles.fontLightGreen}>
+                  Buoy Data
+                </h2>
+                <SelectBuoy setPlace={handleBuoySelection}/>
+                <h3 style={styles.fontLightGreen}>
+                  {place}
+                </h3>
+                <Buoys place={place}/>
+                </Paper>
+                <p></p>
+                <Paper style={styles.paper}>
+                <h2 align="center" style={styles.fontLightGreen}>
+                  Forecast Data
+                </h2>
+                <SelectSurfSpot setSpot={handleSpotSelection}/>
+                <h3 style={styles.fontLightGreen}>
+                  {surfspot}
+                </h3>
+                <Forecast place={surfspot}/>
+                </Paper>
+                <p></p>
+                <Paper style={styles.paper}>
+                  <WindyIframe/>
+                </Paper>
+          </Grid>
+        </ResponsiveContainer>
+        <p></p>
+        <Navbar/>
       </div>
     )
 }

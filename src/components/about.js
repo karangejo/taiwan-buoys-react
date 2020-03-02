@@ -5,22 +5,25 @@ import Box from '@material-ui/core/Box';
 import Navbar from './navbar';
 import Compass from './../images/compassDegreesSmall.jpg';
 
+const { styles } = require('./../style');
+
+
 function About() {
     return (
-      <div>
+      <div style={styles.background}>
       <Navbar/>
-      <Grid container direction='column' justify='center' alignItems='center'>
-        <h1>
+      <Grid container direction='column' justify='center' alignItems='center' style={{padding: "20px 20px 20px 20px"}}>
+        <h1 style={styles.fontOrange}>
           About
         </h1>
-        <Paper >
+        <Paper style={styles.paper}>
         <Grid container direction='column' justify='center' alignItems='center'>
           <Box p={3}>
-          <p>
+          <p style={styles.fontLightGreen}>
             Taiwan buoys is commited to bringing you the best and latest data sources and forecasts.
             Surfers, windsurfers, kitesurfers and really anyone that goes out in the ocean can benefit from this data.
           </p>
-          <p>
+          <p style={styles.fontLightGreen}>
             Taiwan buoys is a one man team please show your support.
             Taiwan buoys was written with react, nodejs, R and material-ui.
             Big thanks to the open source communities that developed these tools.
@@ -30,25 +33,25 @@ function About() {
           </Grid>
           </Paper>
 
-          <h1>
+          <h1 style={styles.fontOrange}>
             FAQ
           </h1>
-          <Paper >
+          <Paper style={styles.paper}>
           <Grid container direction='column' justify='center' alignItems='center'>
             <Box p={3}>
-            <p align="center">
+            <p align="center" style={styles.fontLightGreen}>
               Q: What do the degrees mean in the swell direction and wind direction forecast?
             </p>
-            <p align="center">
-              A: The following image show the corresponding direction for each of the degrees. Degrees are allow for a finer degree of detail than just direction names.
+            <p align="center" style={styles.fontLightGreen}>
+              A: The following image show the corresponding direction for each of the degrees. Degrees allow for a finer degree of detail than just direction names.
             </p>
 
               <img alt="Degrees and Directions Compass" src={Compass} style={{marginLeft: "auto", marginRight: "auto", display: "block", width: "50%"}}/>
 
-            <p align="center">
+            <p align="center" style={styles.fontLightGreen}>
               Q: What is the difference between Buoy Data and Forecast Data?
             </p>
-            <p align="center">
+            <p align="center" style={styles.fontLightGreen}>
               A: Buoy Data is past data observed from the past 3 days.
               So it can give you an idea of how it has been recently and can be used as a comparison to the forecast data.
               Forecast Data is data projected into the future. Taiwanbuoys uses NOAA forecast for the forecast data.
@@ -58,6 +61,7 @@ function About() {
           </Paper>
 
       </Grid>
+      <p></p>
       <Navbar/>
       </div>
     )

@@ -4,6 +4,8 @@ import InputLabel from '@material-ui/core/InputLabel';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 
+const { styles } = require('./../style');
+
 
 // when using this function you must set props of buoyLocation to get the location requested in parent
 export default function SelectBuoy(props) {
@@ -27,7 +29,7 @@ export default function SelectBuoy(props) {
 
   return (
     <FormControl size="small" fullWidth={true} margin='normal'>
-      <InputLabel id="demo-controlled-open-select-label">Select Buoy</InputLabel>
+      <InputLabel id="demo-controlled-open-select-label" style={styles.fontLightGreen}>Select Buoy</InputLabel>
       <Select
         labelId="demo-controlled-open-select-label"
         id="demo-controlled-open-select"
@@ -36,12 +38,13 @@ export default function SelectBuoy(props) {
         onOpen={handleOpen}
         value={buoyLocation}
         onChange={handleChange}
+        style={styles.fontLightGreen}
       >
-        <MenuItem value={'Taitung'}>Taitung</MenuItem>
-        <MenuItem value={'Yilan'}>Yilan</MenuItem>
-        <MenuItem value={'SuAo'}>SuAo</MenuItem>
-        <MenuItem value={'XiaoLiuQiu'}>XiaoLiuQiu</MenuItem>
-        <MenuItem value={'HuaLien'}>Hualien</MenuItem>
+        <MenuItem value={'Taitung'} style={styles.menuItemStyle}>Taitung</MenuItem>
+        <MenuItem value={'Yilan'} style={styles.menuItemStyle}>Yilan</MenuItem>
+        <MenuItem value={'SuAo'} style={styles.menuItemStyle}>SuAo</MenuItem>
+        <MenuItem value={'XiaoLiuQiu'} style={styles.menuItemStyle}>XiaoLiuQiu</MenuItem>
+        <MenuItem value={'HuaLien'} style={styles.menuItemStyle}>Hualien</MenuItem>
       </Select>
     </FormControl>
   );

@@ -2,6 +2,8 @@ const fs = require('fs');
 const express = require('express')
 const router = express.Router()
 
+// get the data from mongodb once it is going
+
 // buoy endpoints
 router.get('/Taitung', (req, res) => {
   let rawdata = fs.readFileSync('./buoyData/Taitung.JSON');
@@ -40,6 +42,38 @@ router.get('/SuAo', (req, res) => {
 
 
 // forecast endpoints
+router.get('/TaitungForecast', (req, res) => {
+  let rawdata = fs.readFileSync('./forecastData/Taitung.JSON');
+  let df = JSON.parse(rawdata);
+  res.send(df);
+})
+
+router.get('/HualienForecast', (req, res) => {
+  let rawdata = fs.readFileSync('./forecastData/HuaLien.JSON');
+  let df = JSON.parse(rawdata);
+  res.send(df);
+})
+
+router.get('/YilanForecast', (req, res) => {
+  let rawdata = fs.readFileSync('./forecastData/Yilan.JSON');
+  let df = JSON.parse(rawdata);
+  res.send(df);
+})
+
+router.get('/SuAoForecast', (req, res) => {
+  let rawdata = fs.readFileSync('./forecastData/SuAo.JSON');
+  let df = JSON.parse(rawdata);
+  res.send(df);
+})
+
+router.get('/XiaoLiuQiuForecast', (req, res) => {
+  let rawdata = fs.readFileSync('./forecastData/XiaoLiuQiu.JSON');
+  let df = JSON.parse(rawdata);
+  res.send(df);
+})
+
+/*
+// forecast endpoints
 router.get('/DongHeForecast', (req, res) => {
   let rawdata = fs.readFileSync('./forecastData/donghe.JSON');
   let df = JSON.parse(rawdata);
@@ -75,6 +109,5 @@ router.get('/NanWanForecast', (req, res) => {
   let df = JSON.parse(rawdata);
   res.send(df);
 })
-
-
+*/
 module.exports = router

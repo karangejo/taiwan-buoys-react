@@ -5,6 +5,7 @@ import CurrentData from './currentData'
 import BuoyWaveGraph from './buoyWaveGraph';
 import BuoyWindGraph from './buoyWindGraph';
 
+const { styles } = require('./../style');
 
 
 
@@ -32,7 +33,13 @@ function Buoys(props) {
     const showAreaCharts = () => {
       return(
         <div>
+        <h2 align="center" style={styles.fontOrange}>
+          Wave
+        </h2>
         <BuoyWaveGraph place={props.place} data={data}/>
+        <h2 align="center" style={styles.fontOrange}>
+          Wind
+        </h2>
         <BuoyWindGraph place={props.place} data={data}/>
         </div>
       );

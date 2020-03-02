@@ -5,7 +5,13 @@ library(zoo)
 library(data.table)
 library(gridExtra)
 library(jsonlite)
+library(lubridate)
 
+getCurrentTime <- function(){
+  timesys <- as.character(now("UTC"))
+  timesys <- gsub(":.*","",timesys)
+  return(timesys)
+}
 
 GetBuoyData<- function(buoyUrl,tideUrl){
 
@@ -61,8 +67,10 @@ GetTaitung <- function(){
   TaitungData <- (GetBuoyData(TaitungUrl,FugangBuoyURL))
   #  台東浮標 <-TaitungData
   dfjson <- toJSON(TaitungData)
-  write(dfjson,file="./buoyData/Taitung.JSON")
+  return(dfjson)
+  #  write(dfjson,file="./buoyData/Taitung.JSON")
   # save(台東浮標,file="台東浮標.Rda")
+  #TTJ <- toJSON(paste("{ \"date\" : \"dateToday\", \"data\" : ", TT, "}"))
 
 }
 

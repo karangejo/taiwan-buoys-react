@@ -16,6 +16,39 @@ const dataFolder ='./forecastData/';
 var spotsList = [];
 
 // surf spots to be served
+const taitung = {lat:22.872005,
+                lng:121.250046,
+                fileName: 'Taitung.JSON'
+                }
+spotsList.push(taitung);
+
+const hualien = {lat:23.719626,
+                lng:121.620303,
+                fileName: 'Hualien.JSON'
+                }
+spotsList.push(hualien);
+
+const suao = {lat:24.552165,
+                lng:121.893323,
+                fileName: 'SuAo.JSON'
+                }
+spotsList.push(suao);
+
+const yilan = {lat:24.901836,
+                lng:121.972881,
+                fileName: 'Yilan.JSON'
+                }
+spotsList.push(yilan);
+
+const xiaoliuqiu = {lat:22.304580,
+                    lng:120.359826,
+                    fileName: 'XiaoLiuQiu.JSON'
+                }
+spotsList.push(xiaoliuqiu);
+
+/*
+
+// surf spots to be served
 const dongHe = {lat:22.974713,
                 lng:121.312026,
                 fileName: 'donghe.JSON'
@@ -53,7 +86,7 @@ const huaLien = {lat:23.934235,
 spotsList.push(huaLien);
 
 
-
+*/
 
 // main function to scrape all the data from a location. The place object has the form
 // {lat: XXXX, lng: XXXX, fileName: XXXX}
@@ -94,6 +127,7 @@ const processAndSaveData = (df,file) => {
     }
   }
 
+// save the data to mongodb instead of to file
   const fileData = JSON.stringify(myData)
   fs.writeFileSync(dataFolder+file, fileData);
 }

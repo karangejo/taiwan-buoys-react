@@ -4,10 +4,12 @@ import InputLabel from '@material-ui/core/InputLabel';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 
+const { styles } = require('./../style');
+
 
 // when using this function you must set props of setSpot to get the location requested in parent
 export default function SelectSurfSpot(props) {
-  const [spotLocation, setSpotLocation] = React.useState('DongHe');
+  const [spotLocation, setSpotLocation] = React.useState('Taitung');
   const [open, setOpen] = React.useState(false);
 
 
@@ -27,7 +29,7 @@ export default function SelectSurfSpot(props) {
 
   return (
     <FormControl size="small" fullWidth={true} margin='normal'>
-      <InputLabel id="demo-controlled-open-select-label">Select Buoy</InputLabel>
+      <InputLabel id="demo-controlled-open-select-label" style={styles.fontLightGreen}>Select Spot</InputLabel>
       <Select
         labelId="demo-controlled-open-select-label"
         id="demo-controlled-open-select"
@@ -36,13 +38,13 @@ export default function SelectSurfSpot(props) {
         onOpen={handleOpen}
         value={spotLocation}
         onChange={handleChange}
+        style={styles.fontLightGreen}
       >
-        <MenuItem value={'DongHe'}>DongHe</MenuItem>
-        <MenuItem value={'FongBin'}>FongBin</MenuItem>
-        <MenuItem value={'ChengGong'}>ChengGong</MenuItem>
-        <MenuItem value={'Hualien'}>Hualien</MenuItem>
-        <MenuItem value={'NanWan'}>NanWan</MenuItem>
-        <MenuItem value={'JiaLeShui'}>JiaLeShui</MenuItem>
+        <MenuItem value={'Taitung'} style={styles.menuItemStyle}>Taitung</MenuItem>
+        <MenuItem value={'Hualien'} style={styles.menuItemStyle}>Hualien</MenuItem>
+        <MenuItem value={'Yilan'} style={styles.menuItemStyle}>Yilan</MenuItem>
+        <MenuItem value={'SuAo'} style={styles.menuItemStyle}>SuAo</MenuItem>
+        <MenuItem value={'XiaoLiuQiu'} style={styles.menuItemStyle}>XiaoLiuQiu</MenuItem>
       </Select>
     </FormControl>
   );

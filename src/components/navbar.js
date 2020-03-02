@@ -6,8 +6,10 @@ import AccountTreeIcon from '@material-ui/icons/AccountTree';
 import BrightnessAutoIcon from '@material-ui/icons/BrightnessAuto';
 import Grid from '@material-ui/core/Grid';
 import { Paper } from '@material-ui/core';
-
 import { useHistory } from "react-router-dom";
+
+const { styles } = require('./../style');
+
 
 
 
@@ -32,16 +34,16 @@ function Navbar() {
 
   return (
     <div>
-    <Grid container direction='column' justify='center' alignItems='center'>
+    <Grid container direction='column' justify='center' alignItems='center' >
     <Paper style={{width: "100%"}}>
       <BottomNavigation
-      style={{width:"100%"}}
+      style={styles.navbar}
       onChange={handleClick}
       showLabels
-    >
-      <BottomNavigationAction label="Home" icon={<HomeIcon/>}/>
-      <BottomNavigationAction label="Graphs" icon={<AccountTreeIcon/>}/>
-      <BottomNavigationAction label="About" icon={<BrightnessAutoIcon/>}/>
+      >
+      <BottomNavigationAction label="Home" icon={<HomeIcon/>} style={styles.fontLightGreen}/>
+      <BottomNavigationAction label="Graphs" icon={<AccountTreeIcon/>} style={styles.fontLightGreen}/>
+      <BottomNavigationAction label="About" icon={<BrightnessAutoIcon/>} style={styles.fontLightGreen}/>
     </BottomNavigation>
     </Paper>
     </Grid>

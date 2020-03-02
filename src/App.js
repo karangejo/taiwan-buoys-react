@@ -4,6 +4,9 @@ import Home from './components/home';
 import About from './components/about';
 import Graphs from './components/graphs';
 
+
+
+
 function App() {
   return (
     <div className="App">

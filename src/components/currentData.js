@@ -1,7 +1,9 @@
 import React from 'react';
 import { Paper } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
+import {toKnots} from './../utils/utils';
 
+const { styles } = require('./../style');
 
 function CurrentData(props) {
 
@@ -14,17 +16,17 @@ function CurrentData(props) {
         } else {
           //console.log(props);
           return(
-            <Paper>
+            <Paper style={styles.currentDataStyle}>
                 <Grid container direction='column' justify='center' alignItems='center'>
-                    <h4>
+                    <h4 style={styles.fontLightGreen}>
                       Current Buoy Readings
                     </h4>
-                    <p>
+                    <p style={styles.fontLightGreen}>
                       Date Time: {props.data.DateTime} <br/>
                       Wave Height: {props.data.WaveHeight} m <br/>
                       Wave Period: {props.data.WavePeriod} s <br/>
                       Wave Direction: {props.data.WaveDir} <br/>
-                      Wind Speed: {props.data.WindSpeed} m/s {Math.round(props.data.WindSpeed*1.94)} kts<br/>
+                      Wind Speed: {props.data.WindSpeed} m/s {toKnots(props.data.WindSpeed)} kts<br/>
                       Wind Direction: {props.data.WindDirection} <br/>
                       Tide: {props.data.Tide} m <br/>
                     </p>

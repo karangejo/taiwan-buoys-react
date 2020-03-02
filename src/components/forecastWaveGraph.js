@@ -5,6 +5,10 @@ import moment from 'moment';
 import { Paper } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
+import {degToCompass} from './../utils/utils';
+
+
+const { styles } = require('./../style');
 
 
 function ForecastWaveGraph(props) {
@@ -26,20 +30,20 @@ function ForecastWaveGraph(props) {
           const currentData = payload[0].payload
           return(
             <div className="custom-tooltip">
-            <Paper style={{backgroundColor:'rgba(105, 168, 230, 0.74)'}}>
+            <Paper style={styles.graphTooltipBackground}>
               <Grid container direction='column' justify='center' alignItems='center'>
                 <Box p={3}>
-                  <p className="label">
-                    Direction: {currentData.swellDirection} degrees
+                  <p className="label" style={styles.fontLightGreen}>
+                    Direction: {currentData.swellDirection} degrees {degToCompass(currentData.swellDirection)}
                   </p>
-                  <p className="label">
+                  <p className="label" style={styles.fontLightGreen}>
                     Swell: {currentData.swellHeight} m
                   </p>
-                  <p className="label">
+                  <p className="label" style={styles.fontLightGreen}>
                     Period: {currentData.swellPeriod} s
                   </p>
-                  <p className="intro">
-                    {moment(currentData.time).format('MM/DD HH:mm')}
+                  <p className="intro" style={styles.fontLightGreen}>
+                    {moment(currentData.time).format('MM/DD (ddd) HH:mm')}
                   </p>
                 </Box>
               </Grid>
@@ -54,12 +58,12 @@ function ForecastWaveGraph(props) {
 
     return (
       <ComposedChart width={600} height={400} data={data}>
-          <defs>
-            <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
-             <stop offset="5%" stopColor="#8884d8" stopOpacity={0.8}/>
-             <stop offset="95%" stopColor="#8884d8" stopOpacity={0}/>
-            </linearGradient>
-          </defs>
+      <defs>
+        <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
+         <stop offset="5%" stopColor="#f39422" stopOpacity={0.9}/>
+         <stop offset="95%" stopColor="#f39422" stopOpacity={0}/>
+        </linearGradient>
+      </defs>
          <CartesianGrid stroke="#ccc" />
 
          <XAxis  dataKey="time"
@@ -77,8 +81,8 @@ function ForecastWaveGraph(props) {
 
          <Tooltip content={waveTooltip}/>
          <Legend/>
-         <Line yAxisId="wp" type="monotone" dot={false} dataKey="swellPeriod" stroke="#777777"/>
-         <Area yAxisId="wh" type="monotone" dataKey="swellHeight" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)"/>
+         <Line yAxisId="wp" type="monotone" dot={false} dataKey="swellPeriod" stroke="#f39422"/>
+         <Area yAxisId="wh" type="monotone" dataKey="swellHeight" stroke="#f39422" fillOpacity={1} fill="url(#colorUv)"/>
       </ComposedChart>
     )
 }
