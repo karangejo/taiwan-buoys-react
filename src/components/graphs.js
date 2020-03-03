@@ -24,6 +24,7 @@ function GraphsPage() {
   const [place, setPlace] = useState("Taitung");
   const [surfspot, setSurfSpot] = useState("Taitung");
 
+
   const handleBuoySelection = (place) => {
     setPlace(place);
   }
@@ -36,6 +37,9 @@ function GraphsPage() {
     setPlace(place);
     setSurfSpot(place)
   }
+
+
+
 
 
     return (
@@ -57,7 +61,7 @@ function GraphsPage() {
                 <h3 style={styles.fontLightGreen}>
                   {place}
                 </h3>
-                <Buoys place={place}/>
+                <Buoys place={place} />
                 </Paper>
                 <p></p>
                 <Paper style={styles.paper}>
@@ -68,7 +72,7 @@ function GraphsPage() {
                 <h3 style={styles.fontLightGreen}>
                   {surfspot}
                 </h3>
-                <Forecast place={surfspot}/>
+                <Forecast place={surfspot} />
                 </Paper>
                 <p></p>
                 <Paper style={styles.paper}>

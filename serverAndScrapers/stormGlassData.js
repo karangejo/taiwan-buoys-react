@@ -143,9 +143,12 @@ const processAndSaveData = (df,file) => {
   //fs.writeFileSync(dataFolder+file, fileData);
 }
 
-
-for(i in spotsList){
-  getAndSaveData(spotsList[i]);
+try {
+  for(i in spotsList){
+    getAndSaveData(spotsList[i]);
+  }
+} catch (e) {
+  console.log(e);
+} finally {
+  setTimeout((() => mongoose.disconnect()),2000);
 }
-
-process.exit()

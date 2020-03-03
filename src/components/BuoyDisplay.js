@@ -18,10 +18,10 @@ function Buoys(props) {
 
 
     useEffect(() => {
-                      axios.get('http://localhost:3001/'+props.place)
+                      axios.get('http://localhost:3001/buoy/'+props.place)
                             .then((response) => {
                               console.log(response.data);
-                              setData(response.data.reverse());
+                              setData(response.data[0].data.reverse());
                               setShow(true);
                             })
                             .catch((error) => {
@@ -47,7 +47,7 @@ function Buoys(props) {
 
     return (
       <div>
-            <CurrentData data={data[0]}/>
+            <CurrentData data={data[data.length - 1]}/>
             {show && showAreaCharts()}
       </div>
     )

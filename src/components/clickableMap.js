@@ -67,7 +67,7 @@ class ClickableMap extends Component {
   render() {
 
     return (
-      <div style={{ height: '50vh', width: '100%' }}>
+      <div style={{ height: '50vh' }}>
         <GoogleMapReact
           options={this.getMapOptions()}
           bootstrapURLKeys={{ key: ApiKey }}

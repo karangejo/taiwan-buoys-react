@@ -12,10 +12,10 @@ function Forecast(props) {
 
 
   useEffect(() => {
-      axios.get('http://localhost:3001/'+props.place+'Forecast')
+      axios.get('http://localhost:3001/forecast/'+props.place)
             .then((response) => {
               console.log(response.data);
-              setData(response.data);
+              setData(response.data[0].data);
               setShow(true);
             })
             .catch((error) => {
