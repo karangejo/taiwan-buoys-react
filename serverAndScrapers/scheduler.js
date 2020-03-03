@@ -42,7 +42,7 @@ const saveForecastDataToDatabase = function(){
 }
 
 const saveBuoyDataToDatabase = function(){
-  exec("cd /home/karang/Documents/taiwan-buoys-react/serverAndScrapers/ && node saveBuoyToDatabase.js", (error, stdout, stderr) => {
+  exec("sleep 300 ; cd /home/karang/Documents/taiwan-buoys-react/serverAndScrapers/ && node saveBuoyToDatabase.js", (error, stdout, stderr) => {
     if (error) {
         console.log(`error: ${error.message}`);
         return;
