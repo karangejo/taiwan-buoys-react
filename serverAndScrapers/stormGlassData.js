@@ -1,6 +1,15 @@
 const fs = require('fs');
 const fetch = require('node-fetch');
 const api = require('./stormGlassApiKey');
+const mongoose = require('mongoose');
+const Forecast = require('./models/forecast')
+const {getCurrentDate} = require('./currentDate');
+
+
+
+// connect to mongo and define a schema
+mongoose.connect('mongodb://localhost:27017/forecast', {useNewUrlParser: true, useUnifiedTopology: true});
+
 
 //console.log(api.key)
 // lat and long for DongHe
@@ -10,7 +19,7 @@ const api = require('./stormGlassApiKey');
 //const source = 'noaa';
 
 //folder that will contain the data
-const dataFolder ='./forecastData/';
+//const dataFolder ='./forecastData/';
 
 // array to store the list of spot objects
 var spotsList = [];
@@ -18,31 +27,31 @@ var spotsList = [];
 // surf spots to be served
 const taitung = {lat:22.872005,
                 lng:121.250046,
-                fileName: 'Taitung.JSON'
+                fileName: 'Taitung'
                 }
 spotsList.push(taitung);
 
 const hualien = {lat:23.719626,
                 lng:121.620303,
-                fileName: 'Hualien.JSON'
+                fileName: 'Hualien'
                 }
 spotsList.push(hualien);
 
 const suao = {lat:24.552165,
                 lng:121.893323,
-                fileName: 'SuAo.JSON'
+                fileName: 'SuAo'
                 }
 spotsList.push(suao);
 
 const yilan = {lat:24.901836,
                 lng:121.972881,
-                fileName: 'Yilan.JSON'
+                fileName: 'Yilan'
                 }
 spotsList.push(yilan);
 
 const xiaoliuqiu = {lat:22.304580,
                     lng:120.359826,
-                    fileName: 'XiaoLiuQiu.JSON'
+                    fileName: 'XiaoLiuQiu'
                 }
 spotsList.push(xiaoliuqiu);
 
@@ -128,11 +137,15 @@ const processAndSaveData = (df,file) => {
   }
 
 // save the data to mongodb instead of to file
-  const fileData = JSON.stringify(myData)
-  fs.writeFileSync(dataFolder+file, fileData);
+  const data = new Forecast({date: getCurrentDate(), location: file, data: myData});
+  data.save().then(() => console.log('Saved Forecast Data to Database.'));
+  //const fileData = JSON.stringify(myData)
+  //fs.writeFileSync(dataFolder+file, fileData);
 }
 
 
 for(i in spotsList){
   getAndSaveData(spotsList[i]);
 }
+
+process.exit()
