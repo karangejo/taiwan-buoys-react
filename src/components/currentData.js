@@ -18,9 +18,9 @@ function CurrentData(props) {
           return(
             <Paper style={styles.currentDataStyle}>
                 <Grid container direction='column' justify='center' alignItems='center'>
-                    <h4 style={styles.fontLightGreen}>
+                    <h3 style={styles.fontLightGreen}>
                       Current Buoy Readings
-                    </h4>
+                    </h3>
                     <p style={styles.fontLightGreen}>
                       Date Time: {props.data.DateTime} <br/>
                       Wave Height: {props.data.WaveHeight} m <br/>

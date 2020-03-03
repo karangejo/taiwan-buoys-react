@@ -18,7 +18,7 @@ exports.styles = {
     padding: "10px 10px 10px 10px"
   },
   graphTooltipBackground: {
-    background: "linear-gradient(90deg, rgba(69,114,187,1) 0%, rgba(83,126,197,1) 5%, rgba(83,126,197,1) 95%, rgba(69,114,187,0.75) 100%)"
+    background: "linear-gradient(90deg, rgba(69,114,187,0.75) 0%, rgba(83,126,197,0.75) 5%, rgba(83,126,197,0.75) 95%, rgba(69,114,187,0.75) 100%)"
   },
   fontLightGreen: {
     color: "#e8f9e9",

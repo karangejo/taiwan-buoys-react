@@ -22,5 +22,8 @@ app.use('/forecast', forecastRouter)
 const buoyRouter = require('./routes/buoyRouter')
 app.use('/buoy', buoyRouter)
 
+const tideRouter = require('./routes/tideRouter')
+app.use('/tide', tideRouter)
+
 
 app.listen(3001, () => console.log('Server Started listening on port 3001'))
