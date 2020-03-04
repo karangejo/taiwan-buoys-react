@@ -68,7 +68,7 @@ function BuoyWaveGraph(props) {
          <CartesianGrid stroke="#ccc" />
 
          <XAxis  dataKey="DateTime"
-            tickFormatter = {(datetime) => moment(datetime).format('DD:HH')}
+            tickFormatter = {(datetime) => moment(datetime).format('ddd')}
          />
 
          <YAxis dataKey="WaveHeight"

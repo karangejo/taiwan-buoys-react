@@ -2,8 +2,6 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-import TideGraph from './tideGraph';
-
 const { styles } = require('./../style');
 
 function Tide(props) {
@@ -12,10 +10,10 @@ function Tide(props) {
 
 
   useEffect(() => {
-      axios.get('http://localhost:3001/tide/'+props.place)
+      axios.get('http://localhost:3001/astro/'+props.place)
             .then((response) => {
-              console.log(response.data[0].data);
-              setData(response.data[0].data);
+              console.log(response.data)
+              setData(response.data[0].data[0].days);
               setShow(true);
             })
             .catch((error) => {
@@ -27,10 +25,6 @@ function Tide(props) {
     const showAreaCharts = () => {
       return(
         <div>
-          <h2 align="center" style={styles.fontOrange}>
-            Tide
-          </h2>
-          <TideGraph place={props.place} data={data}/>
         </div>
       );
     }

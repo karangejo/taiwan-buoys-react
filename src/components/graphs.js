@@ -10,7 +10,8 @@ import Forecast from './forecast';
 import SelectBuoy from './selectBuoy';
 import SelectSurfSpot from './selectSurfSpot';
 import ClickableMap from './clickableMap';
-import Tide from './tide.js';
+import Tide from './tide';
+
 
 
 const { styles } = require('./../style');
@@ -75,7 +76,8 @@ function GraphsPage() {
                 </h3>
                 <Forecast place={surfspot} />
                 <p></p>
-                <Tide place={place}/>
+                <Tide place={surfspot}/>
+                <p></p>
                 </Paper>
                 <p></p>
                 <Paper style={styles.paper}>

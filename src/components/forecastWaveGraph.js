@@ -67,7 +67,7 @@ function ForecastWaveGraph(props) {
          <CartesianGrid stroke="#ccc" />
 
          <XAxis  dataKey="time"
-         tickFormatter = {(datetime) => moment(datetime).format('DD:HH')}
+         tickFormatter = {(datetime) => moment(datetime).format('ddd')}
          />
 
          <YAxis dataKey="swellHeight"

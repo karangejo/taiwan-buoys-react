@@ -9,7 +9,7 @@ cron.schedule('*/30 * * * *', () => {
 cron.schedule('0 */12 * * *', () => {
   console.log('running a task every 12 hours');
   saveForecastDataToDatabase();
-  saveTideDataToDatabase();
+  saveRTideDataToDatabase();
 });
 
 const saveTideDataToDatabase = function(){
@@ -29,6 +29,20 @@ const saveTideDataToDatabase = function(){
 
 const saveForecastDataToDatabase = function(){
   exec("cd /home/karang/Documents/taiwan-buoys-react/serverAndScrapers/ && node stormGlassData.js", (error, stdout, stderr) => {
+    if (error) {
+        console.log(`error: ${error.message}`);
+        return;
+    }
+    if (stderr) {
+        console.log(`stderr: ${stderr}`);
+        return;
+    }
+    console.log(`stdout: ${stdout}`);
+  });
+}
+
+const saveRTideDataToDatabase = function(){
+  exec("cd /home/karang/Documents/taiwan-buoys-react/serverAndScrapers/ && node saveTideToDatabase.js", (error, stdout, stderr) => {
     if (error) {
         console.log(`error: ${error.message}`);
         return;

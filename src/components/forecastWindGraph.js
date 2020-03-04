@@ -62,7 +62,7 @@ function ForecastWindGraph(props) {
       </defs>
           <CartesianGrid stroke="#ccc" />
           <XAxis  dataKey="time"
-             tickFormatter = {(datetime) => moment(datetime).format('DD:HH')}
+             tickFormatter = {(datetime) => moment(datetime).format('ddd')}
           />
           <YAxis dataKey="windSpeed"
              yAxisId='ws'

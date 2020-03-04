@@ -148,7 +148,8 @@ PredTaitung <- function(){
   TaitungTide = 'https://www.tide-forecast.com/locations/Taitung-City/forecasts/latest/six_day'
   TaitungTideData <- GetTideData(TaitungTide)
   # 台東潮 <- TaitungTideData
-  save(TaitungTideData,file="TaitungTideData.Rda")
+  dfjson <- toJSON(TaitungTideData)
+  write(dfjson,file="./tideData/Taitung.JSON")
   # save(台東潮,file="台東潮.Rda")
 }
 
@@ -156,7 +157,8 @@ PredHualien <- function(){
   HualienTide = 'https://www.tide-forecast.com/locations/Hualien-City/forecasts/latest/six_day'
   HualienTideData <- GetTideData(HualienTide)
   # 花蓮潮<- HualienTideData
-  save(HualienTideData,file="HualienTideData.Rda")
+  dfjson <- toJSON(HualienTideData)
+  write(dfjson,file="./tideData/Hualien.JSON")
   # save(花蓮潮,file="花蓮潮.Rda")
 }
 
@@ -164,7 +166,8 @@ PredYilan <- function(){
   ChiLungTide = 'https://www.tide-forecast.com/locations/Chi-Lung-Taiwan/forecasts/latest/six_day'
   YilanTideData <- GetTideData(ChiLungTide)
   # 宜蘭潮 <- YilanTideData
-  save(YilanTideData,file="YilanTideData.Rda")
+  dfjson <- toJSON(YilanTideData)
+  write(dfjson,file="./tideData/Yilan.JSON")
   # save(宜蘭潮,file="宜蘭潮.Rda")
 }
 
@@ -172,7 +175,8 @@ PredSuAo <- function(){
   ChiLungTide = 'https://www.tide-forecast.com/locations/Chi-Lung-Taiwan/forecasts/latest/six_day'
   SuAoTideData <- GetTideData(ChiLungTide)
   # 蘇澳潮 <- SuAoTideData
-  save(SuAoTideData,file="SuAoTideData.Rda")
+  dfjson <- toJSON(SuAoTideData)
+  write(dfjson,file="./tideData/SuAo.JSON")
   # save(蘇澳潮,file="蘇澳潮.Rda")
 }
 
@@ -180,7 +184,8 @@ PredXiaoLiuQiu <- function(){
   HengChunTide = 'https://www.tide-forecast.com/locations/Heng-ch-un/forecasts/latest/six_day'
   XiaoLiuQiuTideData <- GetTideData(HengChunTide)
   # 小琉球潮 <- XiaoLiuQiuTideData
-  save(XiaoLiuQiuTideData,file="XiaoLiuQiuTideData.Rda")
+  dfjson <- toJSON(XiaoLiuQiuTideData)
+  write(dfjson,file="./tideData/XiaoLiuQiu.JSON")
   # save(小琉球潮,file="小琉球潮.Rda")
 }
 
@@ -189,9 +194,8 @@ GetSuAo()
 GetYilan()
 GetHualien()
 GetTaitung()
-
-#PredHualien()
-#PredSuAo()
-#PredTaitung()
-#PredXiaoLiuQiu()
-#PredYilan()
+PredHualien()
+PredSuAo()
+PredTaitung()
+PredXiaoLiuQiu()
+PredYilan()
