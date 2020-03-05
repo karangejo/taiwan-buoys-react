@@ -1,7 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
-import ApiKey from './../mapsApiKey.js';
+import api from './../mapsApiKey.js';
 
 //material ui imports
 import Button from '@material-ui/core/Button';
@@ -70,7 +70,7 @@ class ClickableMap extends Component {
       <div style={{ height: '50vh' }}>
         <GoogleMapReact
           options={this.getMapOptions()}
-          bootstrapURLKeys={{ key: ApiKey }}
+          bootstrapURLKeys={{ key: api.key }}
           center={{
                     lat: this.state.currentLatitude,
                     lng: this.state.currentLongitude

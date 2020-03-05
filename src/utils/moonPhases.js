@@ -1,7 +1,7 @@
 // Original Snippet: https://gist.github.com/endel/dfe6bb2fbe679781948
 
 const Moon = {
-  phases: ['new-moon', 'waxing-crescent-moon', 'first-quarter-moon', 'waxing-gibbous-moon', 'full-moon', 'waning-gibbous-moon', 'third-quarter-moon', 'waning-crescent-moon'],
+  phases: ['newMoon', 'waxingCrescentMoon', 'firstQuarterMoon', 'waxingGibbousMoon', 'fullMoon', 'waningGibbousMoon', 'thirdQuarterMoon', 'waningCrescentMoon'],
   phase: function (year, month, day) {
     let c = 0;
     let e = 0;

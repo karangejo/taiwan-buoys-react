@@ -1,4 +1,3 @@
-const fs = require('fs');
 const fetch = require('node-fetch');
 const api = require('./stormGlassApiKey');
 const mongoose = require('mongoose');
@@ -55,47 +54,6 @@ const xiaoliuqiu = {lat:22.304580,
                 }
 spotsList.push(xiaoliuqiu);
 
-/*
-
-// surf spots to be served
-const dongHe = {lat:22.974713,
-                lng:121.312026,
-                fileName: 'donghe.JSON'
-                }
-spotsList.push(dongHe);
-
-const fongBin = {lat:23.598731,
-                lng:121.530104,
-                fileName: 'fongbin.JSON'
-                }
-spotsList.push(fongBin);
-
-const chengGong = {lat:23.114908,
-                lng:121.398776,
-                fileName: 'chenggong.JSON'
-                }
-spotsList.push(chengGong);
-
-const jiaLeShui = {lat:21.987092,
-                lng:120.846658,
-                fileName: 'jialeshui.JSON'
-                }
-spotsList.push(jiaLeShui);
-
-const nanWan = {lat:21.956813,
-                lng:120.762142,
-                fileName: 'nanwan.JSON'
-                }
-spotsList.push(nanWan);
-
-const huaLien = {lat:23.934235,
-                lng:121.614916,
-                fileName: 'hualien.JSON'
-                }
-spotsList.push(huaLien);
-
-
-*/
 
 // main function to scrape all the data from a location. The place object has the form
 // {lat: XXXX, lng: XXXX, fileName: XXXX}
@@ -110,8 +68,6 @@ const getAndSaveData = (placeObj) => {
             });
 }
 
-
-
 // get storm glass value 0
 // get the noaa values 1
 const src = 1
@@ -119,6 +75,7 @@ const src = 1
 //this function re assembles the data into a format suitable for recharts
 // and then saves the data
 const processAndSaveData = (df,file) => {
+
   var myData = [];
 
   for(i in df.hours){
@@ -138,7 +95,14 @@ const processAndSaveData = (df,file) => {
 
 // save the data to mongodb instead of to file
   const data = new Forecast({date: getCurrentDate(), location: file, data: myData});
-  data.save().then(() => console.log('Saved Forecast Data to Database.'));
+  //console.log(data);
+  //data.save().then(() => console.log('Saved Forecast Data to Database.'));
+  data.save((err, value) => {
+    if(err){
+      console.log(err);
+    }
+    console.log("Saved Forecast Data to Database");
+  });
   //const fileData = JSON.stringify(myData)
   //fs.writeFileSync(dataFolder+file, fileData);
 }
