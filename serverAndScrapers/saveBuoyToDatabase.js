@@ -1,7 +1,7 @@
 //requiring path and fs modules
 const path = require('path');
 const fs = require('fs');
-const {getCurrentDateTime} = require('./currentDate');
+const {getCurrentDateTime, getCurrentDateTimeMinutes} = require('./currentDate');
 const mongoose = require('mongoose');
 const Buoy = require('./models/buoy')
 
@@ -9,7 +9,7 @@ const Buoy = require('./models/buoy')
 console.log("***************************************")
 console.log("=======================================")
 console.log("***************************************")
-console.log(getCurrentDateTime());
+console.log(getCurrentDateTimeMinutes());
 
 //joining path of directory
 const directoryPath = path.join(__dirname, 'buoyData');

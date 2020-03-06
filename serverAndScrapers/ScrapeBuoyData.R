@@ -189,6 +189,8 @@ PredXiaoLiuQiu <- function(){
   # save(小琉球潮,file="小琉球潮.Rda")
 }
 
+print(as.character(now("UTC")))
+
 GetXiaoLiuQiu()
 GetSuAo()
 GetYilan()

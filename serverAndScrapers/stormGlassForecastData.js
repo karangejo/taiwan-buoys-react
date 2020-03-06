@@ -3,7 +3,7 @@ const fs = require('fs');
 const api = require('./stormGlassApiKey');
 const mongoose = require('mongoose');
 const Forecast = require('./models/forecast')
-const {getCurrentDate} = require('./currentDate');
+const {getCurrentDate,getCurrentDateTimeMinutes} = require('./currentDate');
 
 
 
@@ -13,7 +13,7 @@ console.log("***************************************")
 console.log("=======================================")
 console.log("***************************************")
 
-console.log(getCurrentDate());
+console.log(getCurrentDateTimeMinutes());
 //console.log(api.key)
 // lat and long for DongHe
 //const lat = 22.974713;
@@ -22,7 +22,7 @@ console.log(getCurrentDate());
 //const source = 'noaa';
 
 //folder that will contain the data
-const dataFolder ='./forecastData/';
+//const dataFolder ='./forecastData/';
 
 // array to store the list of spot objects
 var spotsList = [
