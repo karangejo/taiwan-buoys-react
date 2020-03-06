@@ -43,4 +43,8 @@ exports.styles = {
     fontFamily: "Iceland",
     fontSize:"11px"
   },
+  responsive: {
+    width:"100%",
+    style: "auto"
+  },
 }

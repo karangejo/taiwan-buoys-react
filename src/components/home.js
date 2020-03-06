@@ -30,18 +30,18 @@ function Home() {
           </h1>
         <Paper style={styles.paper}>
         <Grid>
-          <Carousel showArrows={true} showStatus={false} dynamicHeight="true" style={{width:"100%"}}>
+          <Carousel showArrows={true} showStatus={false} dynamicHeight="true" style={{width: "50%"}}>
                 <div>
-                   <img alt="Some dude ripping hard" src={Donkeys} />
+                   <img style={styles.responsive} alt="Some dude ripping hard" src={Donkeys} />
                 </div>
                 <div>
-                    <img alt="Legendary scenery" src={Jinzun} />
+                    <img  style={styles.responsive} alt="Legendary scenery" src={Jinzun} />
                 </div>
                 <div>
-                    <img alt="Epic Surf" src={Chengs} />
+                    <img style={styles.responsive} alt="Epic Surf" src={Chengs} />
                 </div>
                 <div>
-                    <img alt="Some dude ripping hard" src={Fongbindle}/>
+                    <img style={styles.responsive} alt="Some dude ripping hard" src={Fongbindle}/>
                 </div>
             </Carousel>
             </Grid>
