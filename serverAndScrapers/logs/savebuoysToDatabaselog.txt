@@ -452,3 +452,31 @@ saved to Database. For location: SuAo
 saved to Database. For location: Taitung
 saved to Database. For location: XiaoLiuQiu
 saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-06 02
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-06 02
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan

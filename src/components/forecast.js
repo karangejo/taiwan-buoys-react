@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import CircleLoader from "react-spinners/CircleLoader";
 import ForecastWaveGraph from './forecastWaveGraph';
 import ForecastWindGraph from './forecastWindGraph';
 
@@ -39,9 +40,31 @@ function Forecast(props) {
       );
     }
 
+    const spinnerOrMain = () => {
+      if(!show){
+        return(
+          <div>
+            <CircleLoader
+              size={150}
+              //size={"150px"} this also works
+              color={"#f39422"}
+              loading={!show}
+            />
+          </div>
+        );
+      } else {
+        return(
+          <div>
+                {show && showAreaCharts()}
+          </div>
+        )
+      }
+    }
+
+
     return (
       <div>
-        {show && showAreaCharts()}
+        {spinnerOrMain()}
       </div>
     )
 }

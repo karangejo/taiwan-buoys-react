@@ -25,6 +25,8 @@ function GraphsPage() {
 
   const [place, setPlace] = useState("Taitung");
   const [surfspot, setSurfSpot] = useState("Taitung");
+  
+
 
 
   const handleBuoySelection = (place) => {

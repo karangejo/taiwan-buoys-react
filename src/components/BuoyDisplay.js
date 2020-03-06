@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
+import CircleLoader from "react-spinners/CircleLoader";
 import CurrentData from './currentData'
 import BuoyWaveGraph from './buoyWaveGraph';
 import BuoyWindGraph from './buoyWindGraph';
@@ -45,10 +46,31 @@ function Buoys(props) {
       );
     }
 
+    const spinnerOrMain = () => {
+      if(!show){
+        return(
+          <div>
+            <CircleLoader
+              size={150}
+              //size={"150px"} this also works
+              color={"#f39422"}
+              loading={!show}
+            />
+          </div>
+        );
+      } else {
+        return(
+          <div>
+                <CurrentData data={data[data.length - 1]}/>
+                {show && showAreaCharts()}
+          </div>
+        )
+      }
+    }
+
     return (
       <div>
-            <CurrentData data={data[data.length - 1]}/>
-            {show && showAreaCharts()}
+        {spinnerOrMain()}
       </div>
     )
 }

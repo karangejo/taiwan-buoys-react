@@ -1,6 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
+import CircleLoader from "react-spinners/CircleLoader";
 import api from './../mapsApiKey.js';
 
 //material ui imports
@@ -20,12 +21,14 @@ class ClickableMap extends Component {
       {name: "Yilan", Lat: "25.249205", Lng: "122.109557"},
       {name: "SuAo", Lat: "24.677337", Lng: "121.998504"},
       {name: "XiaoLiuQiu", Lat: "22.303354", Lng: "119.050031"}
-
-
     ],
-    selectedLocation: ""
+    selectedLocation: "",
+    loading: true
   }
 
+  componentWillMount(){
+    setTimeout(() => this.setState({loading: false}),50);
+  }
 
 
  getMapOptions = (maps: any) => {
@@ -42,12 +45,12 @@ class ClickableMap extends Component {
   }
 
   markerClick = (e) => {
-    console.log(e.currentTarget.value);
+    //console.log(e.currentTarget.value);
     this.props.handleLocation(e.currentTarget.value);
   }
 
   displayMarkers = () => {
-    console.log(this.state.mapMarkers);
+    //console.log(this.state.mapMarkers);
     const markers = this.state.mapMarkers.map((click,index) =>
       <div
         key={index}
@@ -63,10 +66,8 @@ class ClickableMap extends Component {
     return(markers)
   }
 
-
-  render() {
-
-    return (
+  main = () => {
+    return(
       <div style={{ height: '50vh' }}>
         <GoogleMapReact
           options={this.getMapOptions()}
@@ -80,6 +81,37 @@ class ClickableMap extends Component {
         {this.displayMarkers()}
 
         </GoogleMapReact>
+      </div>
+    );
+  }
+
+  spinnerOrMain = () => {
+    if(this.state.loading){
+      return(
+        <div>
+          <CircleLoader
+            size={150}
+            //size={"150px"} this also works
+            color={"#f39422"}
+            loading={this.state.loading}
+          />
+        </div>
+      );
+    } else {
+      return(
+        <div>
+              {this.main()}
+        </div>
+      )
+    }
+  }
+
+
+  render() {
+
+    return (
+      <div>
+        {this.spinnerOrMain()}
       </div>
     );
   }
