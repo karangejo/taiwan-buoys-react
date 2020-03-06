@@ -1,5 +1,5 @@
 import React from 'react';
-import { Area, Line, ComposedChart, CartesianGrid, XAxis, YAxis, Tooltip, Legend} from 'recharts';
+import { Area, Line, ComposedChart, CartesianGrid, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer} from 'recharts';
 import { useState, useEffect } from 'react';
 import moment from 'moment';
 import { Paper } from '@material-ui/core';
@@ -58,7 +58,9 @@ function BuoyWaveGraph(props) {
 
 
     return (
-      <ComposedChart width={600} height={400} data={data}>
+      <Grid>
+      <ResponsiveContainer width="100%" height={props.graphSize}>
+      <ComposedChart width={600} height={props.graphSize} data={data}>
         <defs>
           <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
            <stop offset="5%" stopColor="#f39422" stopOpacity={0.9}/>
@@ -69,21 +71,31 @@ function BuoyWaveGraph(props) {
 
          <XAxis  dataKey="DateTime"
             tickFormatter = {(datetime) => moment(datetime).format('ddd')}
+            height={15}
+            style={styles.fontGraph}
          />
 
          <YAxis dataKey="WaveHeight"
             yAxisId='wh'
             unit="m"
+            orientation="right"
+            width={25}
+            style={styles.fontGraph}
          />
          <YAxis dataKey="WavePeriod"
             yAxisId='wp'
             unit="s"
+            width={25}
+            style={styles.fontGraph}
+
          />
          <Tooltip content={waveTooltip}/>
          <Legend />
          <Line yAxisId="wp" dot={false} type="monotone" dataKey="WavePeriod" stroke="#f39422"/>
          <Area yAxisId="wh" type="monotone" dataKey="WaveHeight" stroke="#f39422" fillOpacity={1} fill="url(#colorUv)"/>
       </ComposedChart>
+      </ResponsiveContainer>
+      </Grid>
     )
 }
 

@@ -2,6 +2,8 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import DataTable, { createTheme } from 'react-data-table-component';
 import { Paper } from '@material-ui/core';
+import Grid from '@material-ui/core/Grid';
+
 
 
 
@@ -89,8 +91,9 @@ function TideGraph(props) {
 
 
     return (
-      <div>
+      <Grid>
       <Paper style={styles.mapPaper}>
+        <Grid>
         <DataTable
           style={styles.fontLightGreen}
           columns={columns}
@@ -98,8 +101,9 @@ function TideGraph(props) {
           theme="myTheme"
           customStyles={customStyles}
         />
+        </Grid>
       </Paper>
-      </div>
+      </Grid>
 
     )
 }

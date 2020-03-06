@@ -37,11 +37,11 @@ function Buoys(props) {
         <h2 align="center" style={styles.fontOrange}>
           Wave
         </h2>
-        <BuoyWaveGraph place={props.place} data={data}/>
+        <BuoyWaveGraph place={props.place} data={data} graphSize={props.graphSize}/>
         <h2 align="center" style={styles.fontOrange}>
           Wind
         </h2>
-        <BuoyWindGraph place={props.place} data={data}/>
+        <BuoyWindGraph place={props.place} data={data} graphSize={props.graphSize}/>
         </div>
       );
     }

@@ -26,7 +26,7 @@ exports.styles = {
   },
   fontOrange: {
     color: "#f39422",
-    fontFamily: "Nosifer"
+    fontFamily: "Nosifer",
   },
   menuItemStyle: {
     color: "#e8f9e9",
@@ -37,5 +37,10 @@ exports.styles = {
     color: "#e8f9e9",
     backgroundColor : "rgba(243, 148, 34, 0.7)",
     fontFamily: "Iceland"
-  }
+  },
+  fontGraph: {
+    color: "#e8f9e9",
+    fontFamily: "Iceland",
+    fontSize:"11px"
+  },
 }

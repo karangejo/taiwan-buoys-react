@@ -1,5 +1,5 @@
 import React from 'react';
-import { Area, Line, ComposedChart, CartesianGrid, XAxis, YAxis, Tooltip, Legend} from 'recharts';
+import { Area, Line, ComposedChart, CartesianGrid, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer} from 'recharts';
 import { useState, useEffect } from 'react';
 import moment from 'moment';
 import { Paper } from '@material-ui/core';
@@ -57,7 +57,9 @@ function ForecastWaveGraph(props) {
 
 
     return (
-      <ComposedChart width={600} height={400} data={data}>
+      <Grid>
+      <ResponsiveContainer width="100%" height={props.graphSize}>
+      <ComposedChart width={600} height={props.graphSize} data={data}>
       <defs>
         <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
          <stop offset="5%" stopColor="#f39422" stopOpacity={0.9}/>
@@ -68,15 +70,22 @@ function ForecastWaveGraph(props) {
 
          <XAxis  dataKey="time"
          tickFormatter = {(datetime) => moment(datetime).format('ddd')}
+         height={15}
+         style={styles.fontGraph}
          />
 
          <YAxis dataKey="swellHeight"
             yAxisId='wh'
             unit="m"
+            orientation="right"
+            width={25}
+            style={styles.fontGraph}
          />
          <YAxis dataKey="swellPeriod"
             yAxisId='wp'
             unit="s"
+            width={25}
+            style={styles.fontGraph}
          />
 
          <Tooltip content={waveTooltip}/>
@@ -84,6 +93,8 @@ function ForecastWaveGraph(props) {
          <Line yAxisId="wp" type="monotone" dot={false} dataKey="swellPeriod" stroke="#f39422"/>
          <Area yAxisId="wh" type="monotone" dataKey="swellHeight" stroke="#f39422" fillOpacity={1} fill="url(#colorUv)"/>
       </ComposedChart>
+      </ResponsiveContainer>
+      </Grid>
     )
 }
 

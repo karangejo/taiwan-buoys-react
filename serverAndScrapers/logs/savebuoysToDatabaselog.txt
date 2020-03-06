@@ -40,3 +40,73 @@ saved to Database. For location: SuAo
 saved to Database. For location: Taitung
 saved to Database. For location: XiaoLiuQiu
 saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-06 06 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-06 07 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-06 07 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-06 08 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-06 08 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan

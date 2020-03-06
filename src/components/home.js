@@ -15,9 +15,11 @@ const { styles } = require('./../style');
 
 
 
+
+
 function Home() {
     return (
-      <div style={styles.background}>
+      <Grid style={styles.background}>
       <Navbar/>
         <Grid container direction='column' justify='center' alignItems='center' style={{padding: "20px 20px 20px 20px"}}>
           <p></p>
@@ -27,7 +29,8 @@ function Home() {
             Gallery
           </h1>
         <Paper style={styles.paper}>
-          <Carousel showArrows={true} showStatus={false}>
+        <Grid>
+          <Carousel showArrows={true} showStatus={false} dynamicHeight="true" style={{width:"100%"}}>
                 <div>
                    <img alt="Some dude ripping hard" src={Donkeys} />
                 </div>
@@ -41,11 +44,12 @@ function Home() {
                     <img alt="Some dude ripping hard" src={Fongbindle}/>
                 </div>
             </Carousel>
+            </Grid>
           </Paper>
         </Grid>
         <p></p>
       <Navbar/>
-      </div>
+      </Grid>
     )
 }
 

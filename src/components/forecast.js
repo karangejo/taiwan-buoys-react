@@ -31,11 +31,11 @@ function Forecast(props) {
         <h2 align="center" style={styles.fontOrange}>
           Wave
         </h2>
-        <ForecastWaveGraph place={props.place} data={data}/>
+        <ForecastWaveGraph place={props.place} data={data} graphSize={props.graphSize}/>
         <h2 align="center" style={styles.fontOrange}>
           Wind
         </h2>
-        <ForecastWindGraph place={props.place} data={data}/>
+        <ForecastWindGraph place={props.place} data={data} graphSize={props.graphSize}/>
         </div>
       );
     }

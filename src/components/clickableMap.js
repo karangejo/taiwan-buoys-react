@@ -2,6 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 import CircleLoader from "react-spinners/CircleLoader";
+import Grid from '@material-ui/core/Grid';
 import api from './../mapsApiKey.js';
 
 //material ui imports
@@ -68,7 +69,7 @@ class ClickableMap extends Component {
 
   main = () => {
     return(
-      <div style={{ height: '50vh' }}>
+      <Grid style={{ height: '50vh' }}>
         <GoogleMapReact
           options={this.getMapOptions()}
           bootstrapURLKeys={{ key: api.key }}
@@ -81,7 +82,7 @@ class ClickableMap extends Component {
         {this.displayMarkers()}
 
         </GoogleMapReact>
-      </div>
+      </Grid>
     );
   }
 

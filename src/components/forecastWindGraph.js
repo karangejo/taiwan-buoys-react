@@ -1,5 +1,5 @@
 import React from 'react';
-import { Area, ComposedChart, CartesianGrid, XAxis, YAxis, Tooltip, Legend} from 'recharts';
+import { Area, ComposedChart, CartesianGrid, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer} from 'recharts';
 import { useState, useEffect } from 'react';
 import moment from 'moment';
 import { Paper } from '@material-ui/core';
@@ -53,7 +53,9 @@ function ForecastWindGraph(props) {
 
 
     return (
-      <ComposedChart width={600} height={400} data={data}>
+      <Grid>
+      <ResponsiveContainer width="100%" height={props.graphSize}>
+      <ComposedChart width={600} height={props.graphSize} data={data}>
       <defs>
         <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
          <stop offset="5%" stopColor="#f39422" stopOpacity={0.9}/>
@@ -63,16 +65,22 @@ function ForecastWindGraph(props) {
           <CartesianGrid stroke="#ccc" />
           <XAxis  dataKey="time"
              tickFormatter = {(datetime) => moment(datetime).format('ddd')}
+             height={15}
+             style={styles.fontGraph}
           />
           <YAxis dataKey="windSpeed"
              yAxisId='ws'
              unit="m/s"
+             width={25}
+             style={styles.fontGraph}
           />
 
           <Tooltip content={windTooltip}/>
           <Legend/>
           <Area yAxisId="ws" type="monotone" dataKey="windSpeed" stroke="#f39422" fillOpacity={1} fill="url(#colorUv)"/>
       </ComposedChart>
+      </ResponsiveContainer>
+      </Grid>
     )
 }
 

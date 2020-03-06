@@ -10,7 +10,7 @@ const { styles } = require('./../style');
 
 function About() {
     return (
-      <div style={styles.background}>
+      <Grid style={styles.background}>
       <Navbar/>
       <Grid container direction='column' justify='center' alignItems='center' style={{padding: "20px 20px 20px 20px"}}>
         <h1 style={styles.fontOrange}>
@@ -63,7 +63,7 @@ function About() {
       </Grid>
       <p></p>
       <Navbar/>
-      </div>
+      </Grid>
     )
 }
 

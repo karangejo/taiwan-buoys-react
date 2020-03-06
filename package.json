@@ -47,6 +47,8 @@
     ]
   },
   "babel": {
-    "plugins": ["emotion"]
+    "plugins": [
+      "emotion"
+    ]
   }
 }

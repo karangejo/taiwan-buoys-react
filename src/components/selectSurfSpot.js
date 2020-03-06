@@ -3,6 +3,8 @@ import MenuItem from '@material-ui/core/MenuItem';
 import InputLabel from '@material-ui/core/InputLabel';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
+import Grid from '@material-ui/core/Grid';
+
 
 const { styles } = require('./../style');
 
@@ -28,6 +30,7 @@ export default function SelectSurfSpot(props) {
   };
 
   return (
+    <Grid container direction='column' justify='center' alignItems='center'>
     <FormControl size="small" fullWidth={true} margin='normal'>
       <InputLabel id="demo-controlled-open-select-label" style={styles.fontLightGreen}>Select Spot</InputLabel>
       <Select
@@ -47,5 +50,6 @@ export default function SelectSurfSpot(props) {
         <MenuItem value={'XiaoLiuQiu'} style={styles.menuItemStyle}>XiaoLiuQiu</MenuItem>
       </Select>
     </FormControl>
+    </Grid>
   );
 }

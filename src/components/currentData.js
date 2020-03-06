@@ -43,6 +43,7 @@ function CurrentData(props) {
         } else {
           console.log(moon);
           return(
+            <Grid>
             <Paper style={styles.currentDataStyle}>
                 <Grid container direction='column' justify='center' alignItems='center'>
                     <h3 style={styles.fontLightGreen}>
@@ -61,6 +62,7 @@ function CurrentData(props) {
                     </p>
               </Grid>
             </Paper>
+            </Grid>
 
           )
         }

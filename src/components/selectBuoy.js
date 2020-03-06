@@ -3,6 +3,8 @@ import MenuItem from '@material-ui/core/MenuItem';
 import InputLabel from '@material-ui/core/InputLabel';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
+import Grid from '@material-ui/core/Grid';
+
 
 const { styles } = require('./../style');
 
@@ -28,7 +30,8 @@ export default function SelectBuoy(props) {
   };
 
   return (
-    <FormControl size="small" fullWidth={true} margin='normal'>
+    <Grid container direction='column' justify='center' alignItems='center'>
+    <FormControl size="large" fullWidth={true} margin='normal'>
       <InputLabel id="demo-controlled-open-select-label" style={styles.fontLightGreen}>Select Buoy</InputLabel>
       <Select
         labelId="demo-controlled-open-select-label"
@@ -47,5 +50,6 @@ export default function SelectBuoy(props) {
         <MenuItem value={'HuaLien'} style={styles.menuItemStyle}>Hualien</MenuItem>
       </Select>
     </FormControl>
+    </Grid>
   );
 }

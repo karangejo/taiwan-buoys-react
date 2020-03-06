@@ -34,7 +34,7 @@ function Navbar() {
 
   return (
     <div>
-    <Grid container direction='column' justify='center' alignItems='center' >
+    <Grid container direction='column' justify='center' alignItems='center' style={{width: "100%"}} >
     <Paper style={{width: "100%"}}>
       <BottomNavigation
       style={styles.navbar}
