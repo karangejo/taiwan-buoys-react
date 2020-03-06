@@ -71,7 +71,7 @@ const processAndSaveData = (df,file) => {
 
 // save the data to mongodb instead of to file
   const data = new Astro({date: getCurrentDate(), location: file, data: df});
-  data.save().then(() => console.log('Saved Astronomical Data to Database.'));
+  data.save().then(() => console.log('Saved Astronomical Data to Database. For location: ' + location));
   //const fileData = JSON.stringify(myData)
   //fs.writeFileSync(dataFolder+file, fileData);
 }

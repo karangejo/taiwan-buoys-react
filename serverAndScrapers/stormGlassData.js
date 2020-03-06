@@ -1,4 +1,5 @@
 const fetch = require('node-fetch');
+const fs = require('fs');
 const api = require('./stormGlassApiKey');
 const mongoose = require('mongoose');
 const Forecast = require('./models/forecast')
@@ -9,7 +10,7 @@ const {getCurrentDate} = require('./currentDate');
 // connect to mongo and define a schema
 mongoose.connect('mongodb://localhost:27017/forecast', {useNewUrlParser: true, useUnifiedTopology: true});
 
-
+console.log(getCurrentDate());
 //console.log(api.key)
 // lat and long for DongHe
 //const lat = 22.974713;
@@ -18,7 +19,7 @@ mongoose.connect('mongodb://localhost:27017/forecast', {useNewUrlParser: true, u
 //const source = 'noaa';
 
 //folder that will contain the data
-//const dataFolder ='./forecastData/';
+const dataFolder ='./forecastData/';
 
 // array to store the list of spot objects
 var spotsList = [];
@@ -101,10 +102,10 @@ const processAndSaveData = (df,file) => {
     if(err){
       console.log(err);
     }
-    console.log("Saved Forecast Data to Database");
+    console.log("Saved Forecast Data to Database. For location: " + location);
   });
-  //const fileData = JSON.stringify(myData)
-  //fs.writeFileSync(dataFolder+file, fileData);
+  const fileData = JSON.stringify(myData)
+  fs.writeFileSync(dataFolder+file, fileData);
 }
 
 try {

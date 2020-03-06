@@ -6,8 +6,10 @@ const mongoose = require('mongoose');
 const Buoy = require('./models/buoy')
 
 
-
-
+console.log("***************************************")
+console.log("=======================================")
+console.log("***************************************")
+console.log(getCurrentDateTime());
 
 //joining path of directory
 const directoryPath = path.join(__dirname, 'buoyData');
@@ -31,7 +33,7 @@ fs.readdir(directoryPath, async function (err, files) {
             // save this to mongoDB
             const data = new Buoy(databaseData);
             const save = await data.save()
-            console.log("saved to Database");
+            console.log("saved to Database. For location: " + location);
             });
         } catch (e) {
           console.log(e);

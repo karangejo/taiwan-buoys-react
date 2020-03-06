@@ -6,8 +6,10 @@ const mongoose = require('mongoose');
 const Tide = require('./models/tide')
 
 
-
-
+console.log("***************************************")
+console.log("=======================================")
+console.log("***************************************")
+console.log(getCurrentDateTime());
 
 //joining path of directory
 const directoryPath = path.join(__dirname, 'tideData');
@@ -40,13 +42,13 @@ fs.readdir(directoryPath, async function (err, files) {
               };
               datalist.push(newObj)
             }
-            console.log(datalist);
+            //console.log(datalist);
 
             let databaseData= {date: getCurrentDateTime(), location: location,  data: datalist};
             // save this to mongoDB
             const data = new Tide(databaseData);
             const save = await data.save()
-            console.log("saved to Database");
+            console.log("saved to Database. For location: " + location);
             });
         } catch (e) {
           console.log(e);

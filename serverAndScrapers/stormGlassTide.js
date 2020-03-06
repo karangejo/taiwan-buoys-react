@@ -71,7 +71,7 @@ const processAndSaveData = (df,file) => {
 
 // save the data to mongodb instead of to file
   const data = new Tide({date: getCurrentDate(), location: file, data: df});
-  data.save().then(() => console.log('Saved Tides Data to Database.'));
+  data.save().then(() => console.log('Saved Tides Data to Database. For location: ' + location));
   //const fileData = JSON.stringify(myData)
   //fs.writeFileSync(dataFolder+file, fileData);
 }
