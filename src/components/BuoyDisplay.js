@@ -50,7 +50,7 @@ function Buoys(props) {
       if(!show){
         return(
           <div>
-            <CircleLoader
+          <CircleLoader
               size={150}
               //size={"150px"} this also works
               color={"#f39422"}

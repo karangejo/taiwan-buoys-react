@@ -26,7 +26,7 @@ exports.styles = {
   },
   fontOrange: {
     color: "#f39422",
-    fontFamily: "Nosifer",
+    fontFamily: "Lemon",
   },
   menuItemStyle: {
     color: "#e8f9e9",

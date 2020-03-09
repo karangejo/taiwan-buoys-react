@@ -1,0 +1,40 @@
+***************************************
+=======================================
+***************************************
+2020-03-06 16 00
+Saved Forecast Data to Database. For location: Taitung
+Saved Forecast Data to Database. For location: Hualien
+Saved Forecast Data to Database. For location: SuAo
+Saved Forecast Data to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-07 04 00
+Saved Forecast Data to Database. For location: Taitung
+Saved Forecast Data to Database. For location: Hualien
+Saved Forecast Data to Database. For location: SuAo
+Saved Forecast Data to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-07 16 00
+Saved Forecast Data to Database. For location: Taitung
+Saved Forecast Data to Database. For location: Hualien
+Saved Forecast Data to Database. For location: SuAo
+Saved Forecast Data to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-08 04 00
+Saved Forecast Data to Database. For location: Taitung
+Saved Forecast Data to Database. For location: Hualien
+Saved Forecast Data to Database. For location: SuAo
+Saved Forecast Data to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-08 16 00
+Saved Forecast Data to Database. For location: Taitung
+Saved Forecast Data to Database. For location: Hualien
+Saved Forecast Data to Database. For location: SuAo
+Saved Forecast Data to Database. For location: Yilan

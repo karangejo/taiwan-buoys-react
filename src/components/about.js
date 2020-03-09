@@ -12,8 +12,8 @@ function About() {
     return (
       <Grid style={styles.background}>
       <Navbar/>
-      <Grid container direction='column' justify='center' alignItems='center' style={{padding: "20px 20px 20px 20px"}}>
-        <h1 style={styles.fontOrange}>
+      <Grid direction='column' justify='center' alignItems='center' style={{padding: "20px 20px 20px 20px"}}>
+        <h1 align="center" style={styles.fontOrange}>
           About
         </h1>
         <Paper style={styles.paper}>
@@ -33,7 +33,7 @@ function About() {
           </Grid>
           </Paper>
 
-          <h1 style={styles.fontOrange}>
+          <h1 align="center" style={styles.fontOrange}>
             FAQ
           </h1>
           <Paper style={styles.paper}>

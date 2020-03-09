@@ -70,7 +70,7 @@ const getAndSaveOneAtATime = (placeList) => {
                 processAndSaveData(jsonData, placeObj.fileName);
               }).then(() => {
                               index++;
-                              if(index >= placeList.length){
+                              if(index > placeList.length){
                                 mongoose.disconnect();
                                 return;
                               } else {

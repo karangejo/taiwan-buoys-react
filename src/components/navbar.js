@@ -1,17 +1,22 @@
 import React from 'react';
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
-import HomeIcon from '@material-ui/icons/Home';
-import AccountTreeIcon from '@material-ui/icons/AccountTree';
-import BrightnessAutoIcon from '@material-ui/icons/BrightnessAuto';
+import AppsIcon from '@material-ui/icons/Apps';
+import TimelineIcon from '@material-ui/icons/Timeline';
+import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 import Grid from '@material-ui/core/Grid';
 import { Paper } from '@material-ui/core';
 import { useHistory } from "react-router-dom";
 
 const { styles } = require('./../style');
 
-
-
+const theme = createMuiTheme({
+  typography: {
+    fontFamily: "Iceland",
+    color: "#e8f9e9",
+  },
+});
 
 function Navbar() {
   const history = useHistory();
@@ -36,15 +41,17 @@ function Navbar() {
     <div>
     <Grid container direction='column' justify='center' alignItems='center' style={{width: "100%"}} >
     <Paper style={{width: "100%"}}>
+      <ThemeProvider theme={theme}>
       <BottomNavigation
       style={styles.navbar}
       onChange={handleClick}
       showLabels
       >
-      <BottomNavigationAction label="Home" icon={<HomeIcon/>} style={styles.fontLightGreen}/>
-      <BottomNavigationAction label="Graphs" icon={<AccountTreeIcon/>} style={styles.fontLightGreen}/>
-      <BottomNavigationAction label="About" icon={<BrightnessAutoIcon/>} style={styles.fontLightGreen}/>
+      <BottomNavigationAction label="Home" icon={<AppsIcon/>} style={styles.fontLightGreen}/>
+      <BottomNavigationAction label="Graphs" icon={<TimelineIcon/>} style={styles.fontLightGreen}/>
+      <BottomNavigationAction label="About" icon={<HelpOutlineIcon/>} style={styles.fontLightGreen}/>
     </BottomNavigation>
+    </ThemeProvider>
     </Paper>
     </Grid>
     </div>
