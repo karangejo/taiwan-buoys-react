@@ -50,6 +50,11 @@ var spotsList = [
     lat:22.304580,
     lng:120.359826,
     fileName: 'XiaoLiuQiu'
+  },
+  {
+    lat:22.304580,
+    lng:120.359826,
+    fileName: 'XiaoLiuQiu'
   }
 ];
 
@@ -70,11 +75,11 @@ const getAndSaveOneAtATime = (placeList) => {
                 processAndSaveData(jsonData, placeObj.fileName);
               }).then(() => {
                               index++;
-                              if(index > placeList.length){
-                                mongoose.disconnect();
-                                return;
-                              } else {
+                              if((index < placeList.length)){
                                 helper(placeList[index]);
+                              } else {
+                                mongoose.disconnect()
+                                return;
                               }
                             });
   }

@@ -57,7 +57,11 @@ function CurrentData(props) {
                       Wind Speed: {props.data.WindSpeed} m/s {toKnots(props.data.WindSpeed)} kts<br/>
                       Wind Direction: {props.data.WindDirection} <br/>
                       Tide: {props.data.Tide} m <br/>
-                      Moon Phase: {getMoonPhase()} <br/>
+                      Moon Phase: {getMoonPhase()
+                                      /* change from camel case to normal and then capitalize the first letter*/
+                                      .replace( /([A-Z])/g, " $1" )
+                                      .replace(/^\w/, c => c.toUpperCase())
+                                    } <br/>
                       <img alt="current moon phase" src={phasesObj[getMoonPhase()]} style={{marginLeft: "auto", marginRight: "auto", display: "block", width: "15%"}} />
                     </p>
               </Grid>
