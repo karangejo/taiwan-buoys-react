@@ -15,6 +15,7 @@ const theme = createMuiTheme({
   typography: {
     fontFamily: "Iceland",
     color: "#e8f9e9",
+    fontSize: "1vw"
   },
 });
 
@@ -47,9 +48,9 @@ function Navbar() {
       onChange={handleClick}
       showLabels
       >
-      <BottomNavigationAction label="Home" icon={<AppsIcon/>} style={styles.fontLightGreen}/>
-      <BottomNavigationAction label="Graphs" icon={<TimelineIcon/>} style={styles.fontLightGreen}/>
-      <BottomNavigationAction label="About" icon={<HelpOutlineIcon/>} style={styles.fontLightGreen}/>
+      <BottomNavigationAction label="Home" icon={<AppsIcon style={styles.navIcons}/>} style={styles.navText}/>
+      <BottomNavigationAction label="Graphs" icon={<TimelineIcon style={styles.navIcons}/>} style={styles.navText}/>
+      <BottomNavigationAction label="About" icon={<HelpOutlineIcon style={styles.navIcons}/>} style={styles.navText}/>
     </BottomNavigation>
     </ThemeProvider>
     </Paper>

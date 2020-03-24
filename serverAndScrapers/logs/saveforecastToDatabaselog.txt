@@ -62,3 +62,48 @@ Saved Forecast Data to Database. For location: Hualien
 Saved Forecast Data to Database. For location: SuAo
 Saved Forecast Data to Database. For location: Yilan
 Saved Forecast Data to Database. For location: XiaoLiuQiu
+***************************************
+=======================================
+***************************************
+2020-03-10 04 00
+Saved Forecast Data to Database. For location: Taitung
+Saved Forecast Data to Database. For location: Hualien
+Saved Forecast Data to Database. For location: SuAo
+Saved Forecast Data to Database. For location: Yilan
+Saved Forecast Data to Database. For location: XiaoLiuQiu
+***************************************
+=======================================
+***************************************
+2020-03-10 16 00
+Saved Forecast Data to Database. For location: Taitung
+Saved Forecast Data to Database. For location: Hualien
+Saved Forecast Data to Database. For location: SuAo
+Saved Forecast Data to Database. For location: Yilan
+Saved Forecast Data to Database. For location: XiaoLiuQiu
+***************************************
+=======================================
+***************************************
+2020-03-11 04 00
+Saved Forecast Data to Database. For location: Taitung
+Saved Forecast Data to Database. For location: Hualien
+Saved Forecast Data to Database. For location: SuAo
+Saved Forecast Data to Database. For location: Yilan
+Saved Forecast Data to Database. For location: XiaoLiuQiu
+***************************************
+=======================================
+***************************************
+2020-03-11 16 00
+Saved Forecast Data to Database. For location: Taitung
+Saved Forecast Data to Database. For location: Hualien
+Saved Forecast Data to Database. For location: SuAo
+Saved Forecast Data to Database. For location: Yilan
+Saved Forecast Data to Database. For location: XiaoLiuQiu
+***************************************
+=======================================
+***************************************
+2020-03-12 04 00
+Saved Forecast Data to Database. For location: Taitung
+Saved Forecast Data to Database. For location: Hualien
+Saved Forecast Data to Database. For location: SuAo
+Saved Forecast Data to Database. For location: Yilan
+Saved Forecast Data to Database. For location: XiaoLiuQiu

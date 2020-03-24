@@ -78,12 +78,12 @@ function BuoyWaveGraph(props) {
          <YAxis dataKey="WaveHeight"
             yAxisId='wh'
             unit="m"
-            orientation="right"
             width={25}
             style={styles.fontGraph}
          />
          <YAxis dataKey="WavePeriod"
             yAxisId='wp'
+            orientation="right"
             unit="s"
             width={25}
             style={styles.fontGraph}
@@ -91,7 +91,7 @@ function BuoyWaveGraph(props) {
          />
          <Tooltip content={waveTooltip}/>
          <Legend />
-         <Line yAxisId="wp" dot={false} type="monotone" dataKey="WavePeriod" stroke="#f39422"/>
+         <Line yAxisId="wp" dot={false} type="monotone" dataKey="WavePeriod" strokeWidth={2} stroke="#dc143c"/>
          <Area yAxisId="wh" type="monotone" dataKey="WaveHeight" stroke="#f39422" fillOpacity={1} fill="url(#colorUv)"/>
       </ComposedChart>
       </ResponsiveContainer>

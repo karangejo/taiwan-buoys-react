@@ -2818,3 +2818,1571 @@ saved to Database. For location: SuAo
 saved to Database. For location: Taitung
 saved to Database. For location: XiaoLiuQiu
 saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 00 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 01 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 01 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 02 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 02 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 03 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 03 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 04 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 04 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 05 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 05 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 06 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 06 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 07 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 07 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 08 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 08 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 09 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 09 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 10 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 10 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 11 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 11 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 12 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 12 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 13 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 13 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 14 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 14 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 15 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 15 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 16 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 16 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 17 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 17 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 18 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 18 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 19 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 19 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 20 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 20 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 21 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 21 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 22 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 22 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 23 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-10 23 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 00 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 00 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 01 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 01 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 02 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 02 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 03 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 03 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 04 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 04 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 05 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 05 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 06 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 06 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 07 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 07 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 08 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 08 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 09 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 09 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 10 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 10 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 11 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 11 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 12 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 12 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 13 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 13 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 14 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 14 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 15 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 15 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 16 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 16 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 17 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 17 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 18 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 18 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 19 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 19 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 20 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 20 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 21 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 21 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 22 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 22 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 23 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-11 23 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-12 00 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-12 00 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-12 01 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-12 01 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-12 02 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-12 02 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-12 03 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-12 03 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-12 04 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-12 04 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-12 05 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-12 05 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-12 06 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-12 06 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-12 07 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-12 07 35
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan
+***************************************
+=======================================
+***************************************
+2020-03-12 08 05
+Hualien.JSON
+SuAo.JSON
+Taitung.JSON
+XiaoLiuQiu.JSON
+Yilan.JSON
+saved to Database. For location: Hualien
+saved to Database. For location: SuAo
+saved to Database. For location: Taitung
+saved to Database. For location: XiaoLiuQiu
+saved to Database. For location: Yilan

@@ -9,7 +9,6 @@ import Graphs from './components/graphs';
 
 function App() {
   return (
-    <div className="App">
         <BrowserRouter>
             <Switch>
                 <Route path="/" component={Home} exact />
@@ -17,7 +16,6 @@ function App() {
                 <Route path="/graphs" component={Graphs} />
             </Switch>
         </BrowserRouter>
-    </div>
   );
 }
 

@@ -77,7 +77,7 @@ function ForecastWindGraph(props) {
 
           <Tooltip content={windTooltip}/>
           <Legend/>
-          <Area yAxisId="ws" type="monotone" dataKey="windSpeed" stroke="#f39422" fillOpacity={1} fill="url(#colorUv)"/>
+          <Area yAxisId="ws" type="monotone" dataKey="windSpeed" strokeWidth={2} stroke="#f39422" fillOpacity={1} fill="url(#colorUv)"/>
       </ComposedChart>
       </ResponsiveContainer>
       </Grid>

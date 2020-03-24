@@ -19,7 +19,7 @@ function Buoys(props) {
 
 
     useEffect(() => {
-                      axios.get('http://localhost:3001/buoy/'+props.place)
+                      axios.get('http://tbapi.taiwanbuoys.com/buoy/'+props.place)
                             .then((response) => {
                               console.log(response.data);
                               setData(response.data[0].data.reverse());

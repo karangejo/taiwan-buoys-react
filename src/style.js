@@ -1,6 +1,14 @@
 exports.styles = {
   background : {
-    background : "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(1,0,80,1) 5%, rgba(1,0,80,1) 95%, rgba(0,0,0,1) 100%)"
+    background : "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(1,0,80,1) 5%, rgba(1,0,80,1) 95%, rgba(0,0,0,1) 100%)",
+    height: "100%",
+    width: "100%",
+    paddingLeft: "-12",
+    paddingRight: "0",
+    marginLeft: "-12",
+    marginRight: "0",
+    top: "-5",
+    bottom:"0"
   },
   paper : {
     background : "linear-gradient(90deg, rgba(26,39,91,1) 0%, rgba(41,58,128,1) 5%, rgba(41,58,128,1) 95%, rgba(26,39,91,1) 100%)",
@@ -46,5 +54,23 @@ exports.styles = {
   responsive: {
     width:"100%",
     style: "auto"
+  },
+  homeIcons: {
+    fontSize: "15vw",
+    color: "#537ec5"
+  },
+  navIcons: {
+    fontSize: "2rem",
+    color: "#e8f9e9"
+  },
+  navText: {
+    color: "#e8f9e9",
+    fontFamily: "Iceland",
+    fontSize: "40",
+  },
+  Intro: {
+    color: "#e8f9e9",
+    fontFamily: "Iceland",
+    fontSize: "3.5vw"
   },
 }

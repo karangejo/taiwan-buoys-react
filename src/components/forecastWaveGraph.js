@@ -77,12 +77,12 @@ function ForecastWaveGraph(props) {
          <YAxis dataKey="swellHeight"
             yAxisId='wh'
             unit="m"
-            orientation="right"
             width={25}
             style={styles.fontGraph}
          />
          <YAxis dataKey="swellPeriod"
             yAxisId='wp'
+            orientation="right"
             unit="s"
             width={25}
             style={styles.fontGraph}
@@ -90,8 +90,8 @@ function ForecastWaveGraph(props) {
 
          <Tooltip content={waveTooltip}/>
          <Legend/>
-         <Line yAxisId="wp" type="monotone" dot={false} dataKey="swellPeriod" stroke="#f39422"/>
-         <Area yAxisId="wh" type="monotone" dataKey="swellHeight" stroke="#f39422" fillOpacity={1} fill="url(#colorUv)"/>
+         <Line yAxisId="wp" type="monotone" dot={false} dataKey="swellPeriod" strokeWidth={2} stroke="#dc143c"/>
+         <Area yAxisId="wh" type="monotone" dataKey="swellHeight" strokeWidth={2} stroke="#f39422" fillOpacity={1} fill="url(#colorUv)"/>
       </ComposedChart>
       </ResponsiveContainer>
       </Grid>
